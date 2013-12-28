@@ -5,11 +5,37 @@ Resource       resource_TimeTable.txt
 
 
 *** Test Cases ***
+
+Open Browse
+	Open login page
+
+Invalid Username
+	Log In Fail  invalid  ${VALID PASSWD}
+
+Invalid Password
+	Log In Fail  ${VALID USER}  invalid
+
+Invalid Username and Password
+	Log In Fail  invalid  invalid
+	
+Empty Username
+	Log In Fail  \  ${VALID PASSWD}
+
+Empty Password
+	Log In Fail  ${VALID USER}  \
+
+Empty Username and Password
+	Log In Fail  \  \
+
+Empty Usr and invalid pass
+	Log In Fail  \  invalid
+	
+Invalid Usr and Empty pass
+	Log In Fail  invalid  \
 	
 Log in
-	Open login page
-	Input Username	trinhlk
-	Input Password	nhom12
+	Input Username	${VALID USER}
+	Input Password	${VALID PASSWD}
 	Submit Credentials
     Display Welcome Page
 	
@@ -47,8 +73,24 @@ Insert TimeTable 10A
 	Assign Cell Id  3  2  lh32
 	Set Id X Value Y		lh32	21030
 
+Delete Subject 10A
+	Assign Cell Id  1  2  lh12
+	Set Id X Value Y		lh12	\
+	Assign Cell Id  1  3  lh13
+	Set Id X Value Y		lh13	\
+	Assign Cell Id  1  4  lh14
+	Set Id X Value Y		lh14	\
+	Assign Cell Id  1  5  lh15
+	Set Id X Value Y		lh15	\
+	Assign Cell Id  1  6  lh16
+	Set Id X Value Y		lh16	\
+	Assign Cell Id  1  7  lh17
+	Set Id X Value Y		lh17	\
+
+Switching Class 10B
+	Go To Class  1491
+	
 Insert Timetable 10B
-	Go To Class Selected  selectClass  1491
 	Assign Cell Id  1  2  lh12
 	Set Id X Value Y		lh12	-1
 	Assign Cell Id  1  3  lh13
@@ -75,6 +117,21 @@ Insert Timetable 10B
 	Set Id X Value Y		lh27	21046
 	Assign Cell Id  3  2  lh32
 	Set Id X Value Y		lh32	21044
-	
-	Go To Class Selected  selectClass  1490
+
+Delete Subject 10B
+	Assign Cell Id  1  2  lh12
+	Set Id X Value Y		lh12	\
+	Assign Cell Id  1  3  lh13
+	Set Id X Value Y		lh13	\
+	Assign Cell Id  1  4  lh14
+	Set Id X Value Y		lh14	\
+	Assign Cell Id  1  5  lh15
+	Set Id X Value Y		lh15	\
+	Assign Cell Id  1  6  lh16
+	Set Id X Value Y		lh16	\
+	Assign Cell Id  1  7  lh17
+	Set Id X Value Y		lh17	\
+
+Switching Class 10A
+	Go To Class  1490
 	[Teardown]  Close Browser

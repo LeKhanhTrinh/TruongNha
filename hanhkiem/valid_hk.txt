@@ -1,0 +1,92 @@
+*** Settings ***
+Documentation  A test suite with a single test for valid login. This test has a workflow that is created using keywords from the resource file.
+
+Resource       resource.txt
+
+
+*** Test Cases ***
+	
+Display teachers Page
+	Open login page
+	Input Username	trinhlk
+	Input Password	nhom12
+	Submit Credentials
+    Display WelcomPage
+	Go to Welcome Page
+	Go to Class Page 
+	Submit HanhKiem
+Hanh Kiem T1	
+	Assign Id To Element  xpath=//tr[@class="27800"]/td[@class="hk1"]/input[@class="hk"]  hk11
+	Input To Cell Value X And It Should Display Value Y		hk11	U
+	Textfield Value Should Be   hk11   \
+	Assign Id To Element  xpath=//tr[@class="27800"]/td[@class="col1 hk-thang"]/input[@class="hk"]  hkt91
+	Input To Cell Value X And It Should Display Value Y		hkt91	T
+	Assign Id To Element  xpath=//tr[@class="27800"]/td[@class="col9 hk-thang"]/input[@class="hk"]  hkt51
+	Input To Cell Value X And It Should Display Value Y		hkt51	B 
+Hanh Kiem T2
+	Assign Id To Element  xpath=//tr[@class="27801"]/td[@class="hk1"]/input[@class="hk"]  hk12
+	Input To Cell Value X And It Should Display Value Y		hk12	T
+	Assign Id To Element  xpath=//tr[@class="27801"]/td[@class="col1 hk-thang"]/input[@class="hk"]  hkt92
+	Input To Cell Value X And It Should Display Value Y		hkt92		K
+	Assign Id To Element  xpath=//tr[@class="27801"]/td[@class="col9 hk-thang"]/input[@class="hk"]  hkt52
+	Input To Cell Value X And It Should Display Value Y		hkt52		Y
+Hanh Kiem T3
+	Assign Id To Element  xpath=//tr[@class="27929"]/td[@class="hk1"]/input[@class="hk"]  hk13
+	Input To Cell Value X And It Should Display Value Y		hk13	K
+	Assign Id To Element  xpath=//tr[@class="27929"]/td[@class="col1 hk-thang"]/input[@class="hk"]  hkt93
+	Input To Cell Value X And It Should Display Value Y		hkt93		T
+	Assign Id To Element  xpath=//tr[@class="27929"]/td[@class="col9 hk-thang"]/input[@class="hk"]  hkt53
+	Input To Cell Value X And It Should Display Value Y		hkt53		B
+	
+	Select Group
+
+Hanh Kiem T4
+	Assign Id To Element  xpath=//tr[@class="27938"]/td[@class="hk1"]/input[@class="hk"]  hk1b1
+	Input To Cell Value X And It Should Display Value Y		hk1b1	K  
+	Assign Id To Element  xpath=//tr[@class="27938"]/td[@class="col1 hk-thang"]/input[@class="hk"]  hkt9b1
+	Input To Cell Value X And It Should Display Value Y		hkt9b1	B  
+	Assign Id To Element  xpath=//tr[@class="27938"]/td[@class="col2 hk-thang"]/input[@class="hk"]  hkt10b1
+	Input To Cell Value X And It Should Display Value Y		hkt10b1	Y
+	Assign Id To Element  xpath=//tr[@class="27938"]/td[@class="col3 hk-thang"]/input[@class="hk"]  hkt11b1
+	Input To Cell Value X And It Should Display Value Y		hkt11b1	K
+	Assign Id To Element  xpath=//tr[@class="27938"]/td[@class="col4 hk-thang"]/input[@class="hk"]  hkt12b1
+	Input To Cell Value X And It Should Display Value Y		hkt12b1	T
+	Assign Id To Element  xpath=//tr[@class="27938"]/td[@class="col5 hk-thang"]/input[@class="hk"]  hkt1b1
+	Input To Cell Value X And It Should Display Value Y		hkt1b1	K
+	Assign Id To Element  xpath=//tr[@class="27938"]/td[@class="col6 hk-thang"]/input[@class="hk"]  hkt2b1
+	Input To Cell Value X And It Should Display Value Y		hkt2b1	T
+	Assign Id To Element  xpath=//tr[@class="27938"]/td[@class="col7 hk-thang"]/input[@class="hk"]  hkt3b1
+	Input To Cell Value X And It Should Display Value Y		hkt3b1	T
+	Assign Id To Element  xpath=//tr[@class="27938"]/td[@class="col8 hk-thang"]/input[@class="hk"]  hkt4b1
+	Input To Cell Value X And It Should Display Value Y		hkt4b1	K
+	Assign Id To Element  xpath=//tr[@class="27938"]/td[@class="col9 hk-thang"]/input[@class="hk"]  hkt5b1
+	Input To Cell Value X And It Should Display Value Y	hkt5b1	K 
+
+Hanh Kiem T5
+	Assign Id To Element  xpath=//tr[@class="27939"]/td[@class="hk1"]/input[@class="hk"]  hk1b1_1
+	Input To Cell Value X And It Should Display Value Y		hk1b1_1	K  
+	Assign Id To Element  xpath=//tr[@class="27939"]/td[@class="col1 hk-thang"]/input[@class="hk"]  hkt9b1_1
+	Input To Cell Value X And It Should Display Value Y		hkt9b1_1	B  
+	Assign Id To Element  xpath=//tr[@class="27939"]/td[@class="col2 hk-thang"]/input[@class="hk"]  hkt10b1_1
+	Input To Cell Value X And It Should Display Value Y		hkt10b1_1	Y
+	Assign Id To Element  xpath=//tr[@class="27939"]/td[@class="col3 hk-thang"]/input[@class="hk"]  hkt11b1_1
+	Input To Cell Value X And It Should Display Value Y		hkt11b1_1	K
+	Assign Id To Element  xpath=//tr[@class="27939"]/td[@class="col4 hk-thang"]/input[@class="hk"]  hkt12b1_1
+	Input To Cell Value X And It Should Display Value Y		hkt12b1_1	T
+	Assign Id To Element  xpath=//tr[@class="27939"]/td[@class="col5 hk-thang"]/input[@class="hk"]  hkt1b1_1
+	Input To Cell Value X And It Should Display Value Y		hkt1b1_1	K
+	Assign Id To Element  xpath=//tr[@class="27939"]/td[@class="col6 hk-thang"]/input[@class="hk"]  hkt2b1_1
+	Input To Cell Value X And It Should Display Value Y		hkt2b1_1	T
+	Assign Id To Element  xpath=//tr[@class="27939"]/td[@class="col7 hk-thang"]/input[@class="hk"]  hkt3b1_1
+	Input To Cell Value X And It Should Display Value Y		hkt3b1_1	T
+	Assign Id To Element  xpath=//tr[@class="27939"]/td[@class="col8 hk-thang"]/input[@class="hk"]  hkt4b1_1
+	Input To Cell Value X And It Should Display Value Y		hkt4b1_1	K
+	Assign Id To Element  xpath=//tr[@class="27939"]/td[@class="col9 hk-thang"]/input[@class="hk"]  hkt5b1_1
+	Input To Cell Value X And It Should Display Value Y	hkt5b1_1	K
+
+Submit Exportfile
+	Click Link  export
+	
+
+
+
