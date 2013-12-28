@@ -23,60 +23,60 @@ Go To Hanh Kiem Class
 	
 Hanh Kiem 10A T1	
 	Assign Cell Id  27800  hk1  hk11
-	Input Cell X Value Y		hk11	1
+	Input Cell X Value Y		hk11	11111111111111111111111111111111
 	Textfield Value Should Be   hk11   \
 	Assign Cell Id  27800  col1 hk-thang  hkt91
-	Input Cell X Value Y		hkt91	5
+	Input Cell X Value Y		hkt91	55555555555555555555555555555555555
 	Textfield Value Should Be   hk91   \
 	Assign Cell Id  27800  col5 hk-thang  hkt51
-	Input Cell X Value Y		hkt51	7
+	Input Cell X Value Y		hkt51	777777777777777777777777
 	Textfield Value Should Be   hk51   \
 	Assign Cell Id  27800  col9 hk-thang  hk111
-	Input Cell X Value Y		hk111	0
+	Input Cell X Value Y		hk111	00000000000000000000000000
 	Textfield Value Should Be   hk111   \
 	
 Hanh Kiem 10A T2
 	Assign Cell Id  27801  hk1  hk12
-	Input Cell X Value Y		hk12	-
+	Input Cell X Value Y		hk12	------------------------------------
 	Assign Cell Id  27801  col1 hk-thang  hkt92
-	Input Cell X Value Y		hkt92	+
+	Input Cell X Value Y		hkt92	++++++++++++++++++++++++++++++++++++
 	Assign Cell Id  27801  col9 hk-thang  hkt52
-	Input Cell X Value Y		hkt52   ]
+	Input Cell X Value Y		hkt52   ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
 	Assign Cell Id  27801  col5 hk-thang  hkt53
-	Input Cell X Value Y		hkt53   ;
+	Input Cell X Value Y		hkt53   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	
 Hanh Kiem 10A T3
 	Assign Cell Id  27929  col5 hk-thang  hk113
-	Input Cell X Value Y		hk113	A
+	Input Cell X Value Y		hk113	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 	Assign Cell Id  27929  hk1  hk13
-	Input Cell X Value Y		hk13	O
+	Input Cell X Value Y		hk13	OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 	Assign Cell Id  27929  col1 hk-thang  hkt93
-	Input Cell X Value Y		hkt93	U
+	Input Cell X Value Y		hkt93	UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
 	Assign Cell Id  27929  col9 hk-thang  hkt53
-	Input Cell X Value Y		hkt53   I
+	Input Cell X Value Y		hkt53   IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
 	
 Switching Class 10B
 	Go To Class Selected  1491
 	
 Hanh Kiem 10B T4
 	Assign Cell Id  27938  col5 hk-thang  hk1b1
-	Input Cell X Value Y		hk1b1	Z
+	Input Cell X Value Y		hk1b1	ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
 	Assign Cell Id  27938  hk1  hkt9b1
-	Input Cell X Value Y		hkt9b1	Y
+	Input Cell X Value Y		hkt9b1	YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
 	Assign Cell Id  27938  col1 hk-thang  hkt10b1
-	Input Cell X Value Y		hkt10b1	Z
+	Input Cell X Value Y		hkt10b1	XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 	Assign Cell Id  27938  col9 hk-thang  hkt11b1
-	Input Cell X Value Y		hkt11b1   K
+	Input Cell X Value Y		hkt11b1   KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
 
 Hanh Kiem 10B T5
 	Assign Cell Id  27939  col5 hk-thang  hk1b1_1
-	Input Cell X Value Y		hk1b1_1		M
+	Input Cell X Value Y		hk1b1_1		MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 	Assign Cell Id  27939  hk1  hkt9b1_1
-	Input Cell X Value Y		hkt9b1_1	N
+	Input Cell X Value Y		hkt9b1_1	NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
 	Assign Cell Id  27939  col1 hk-thang  hkt10b1_1
-	Input Cell X Value Y		hkt10b1_1	P
+	Input Cell X Value Y		hkt10b1_1	PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
 	Assign Cell Id  27939  col9 hk-thang  hkt11b1_1
-	Input Cell X Value Y		hkt11b1_1   Q
+	Input Cell X Value Y		hkt11b1_1   QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ
 
 Submit Exportfile
 	Click Link  export

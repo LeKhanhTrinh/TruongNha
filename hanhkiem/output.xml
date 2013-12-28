@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20131228 19:00:12.055" generator="Robot 2.8.3 (Python 2.7.5 on win32)">
+<robot generated="20131228 20:45:33.948" generator="Robot 2.8.3 (Python 2.7.5 on win32)">
 <suite source="C:\Users\NGUYENCUONG\Desktop\TruongNha\HanhKiem\invalid_hk.txt" id="s1" name="Invalid Hk">
 <test id="s1-t1" name="Open Browse">
 <kw type="kw" name="resource.Open login page">
@@ -12,22 +12,22 @@
 <arg>${LOGIN URL}</arg>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:12.317" level="INFO">Opening browser 'ff' to base url 'http://truongnha.com/login/'</msg>
-<status status="PASS" endtime="20131228 19:00:28.701" starttime="20131228 19:00:12.316"></status>
+<msg timestamp="20131228 20:45:34.210" level="INFO">Opening browser 'ff' to base url 'http://truongnha.com/login/'</msg>
+<status status="PASS" endtime="20131228 20:45:48.118" starttime="20131228 20:45:34.209"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Set Selenium Speed">
 <doc>Sets the delay in seconds that is waited after each Selenium command.</doc>
 <arguments>
 <arg>${DELAY}</arg>
 </arguments>
-<status status="PASS" endtime="20131228 19:00:28.702" starttime="20131228 19:00:28.702"></status>
+<status status="PASS" endtime="20131228 20:45:48.119" starttime="20131228 20:45:48.119"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:28.702" starttime="20131228 19:00:12.315"></status>
+<status status="PASS" endtime="20131228 20:45:48.119" starttime="20131228 20:45:34.208"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20131228 19:00:28.703" critical="yes" starttime="20131228 19:00:12.314"></status>
+<status status="PASS" endtime="20131228 20:45:48.120" critical="yes" starttime="20131228 20:45:34.207"></status>
 </test>
 <test id="s1-t2" name="Display teachers Page">
 <kw type="kw" name="resource.Input Username">
@@ -41,10 +41,10 @@
 <arg>id_username</arg>
 <arg>${username}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:28.714" level="INFO">Typing text 'trinhlk' into text field 'id_username'</msg>
-<status status="PASS" endtime="20131228 19:00:28.868" starttime="20131228 19:00:28.713"></status>
+<msg timestamp="20131228 20:45:48.128" level="INFO">Typing text 'trinhlk' into text field 'id_username'</msg>
+<status status="PASS" endtime="20131228 20:45:48.285" starttime="20131228 20:45:48.128"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:28.868" starttime="20131228 19:00:28.712"></status>
+<status status="PASS" endtime="20131228 20:45:48.285" starttime="20131228 20:45:48.127"></status>
 </kw>
 <kw type="kw" name="resource.Input Password">
 <doc></doc>
@@ -57,10 +57,10 @@
 <arg>id_password</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:28.871" level="INFO">Typing text 'nhom12' into text field 'id_password'</msg>
-<status status="PASS" endtime="20131228 19:00:28.990" starttime="20131228 19:00:28.870"></status>
+<msg timestamp="20131228 20:45:48.287" level="INFO">Typing text 'nhom12' into text field 'id_password'</msg>
+<status status="PASS" endtime="20131228 20:45:48.449" starttime="20131228 20:45:48.287"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:28.990" starttime="20131228 19:00:28.869"></status>
+<status status="PASS" endtime="20131228 20:45:48.449" starttime="20131228 20:45:48.285"></status>
 </kw>
 <kw type="kw" name="resource.Submit Credentials">
 <doc></doc>
@@ -71,10 +71,10 @@
 <arguments>
 <arg>login</arg>
 </arguments>
-<msg timestamp="20131228 19:00:28.992" level="INFO">Clicking button 'login'.</msg>
-<status status="PASS" endtime="20131228 19:00:29.179" starttime="20131228 19:00:28.992"></status>
+<msg timestamp="20131228 20:45:48.451" level="INFO">Clicking button 'login'.</msg>
+<status status="PASS" endtime="20131228 20:45:48.640" starttime="20131228 20:45:48.450"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:29.180" starttime="20131228 19:00:28.991"></status>
+<status status="PASS" endtime="20131228 20:45:48.641" starttime="20131228 20:45:48.449"></status>
 </kw>
 <kw type="kw" name="resource.Display WelcomPage">
 <doc></doc>
@@ -85,15 +85,15 @@
 <arguments>
 <arg>${WELCOME URL}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:31.432" level="INFO">Current location is 'http://truongnha.com/school/'.</msg>
-<status status="PASS" endtime="20131228 19:00:31.432" starttime="20131228 19:00:29.181"></status>
+<msg timestamp="20131228 20:45:50.343" level="INFO">Current location is 'http://truongnha.com/school/'.</msg>
+<status status="PASS" endtime="20131228 20:45:50.343" starttime="20131228 20:45:48.642"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:31.433" starttime="20131228 19:00:29.180"></status>
+<status status="PASS" endtime="20131228 20:45:50.343" starttime="20131228 20:45:48.641"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20131228 19:00:31.434" critical="yes" starttime="20131228 19:00:28.709"></status>
+<status status="PASS" endtime="20131228 20:45:50.346" critical="yes" starttime="20131228 20:45:48.124"></status>
 </test>
 <test id="s1-t3" name="Go To Hanh Kiem Class">
 <kw type="kw" name="resource.Go To Class Page">
@@ -106,10 +106,10 @@
 <arguments>
 <arg>${id}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:31.450" level="INFO">Clicking link '1490'.</msg>
-<status status="PASS" endtime="20131228 19:00:31.635" starttime="20131228 19:00:31.449"></status>
+<msg timestamp="20131228 20:45:50.357" level="INFO">Clicking link '1490'.</msg>
+<status status="PASS" endtime="20131228 20:45:50.559" starttime="20131228 20:45:50.356"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:31.635" starttime="20131228 19:00:31.446"></status>
+<status status="PASS" endtime="20131228 20:45:50.559" starttime="20131228 20:45:50.354"></status>
 </kw>
 <kw type="kw" name="resource.Display Detail Page">
 <doc></doc>
@@ -121,10 +121,10 @@
 <arguments>
 <arg>${DETAIL URL}/${id}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:33.325" level="INFO">Current location is 'http://truongnha.com/school/viewClassDetail/1490'.</msg>
-<status status="PASS" endtime="20131228 19:00:33.325" starttime="20131228 19:00:31.637"></status>
+<msg timestamp="20131228 20:45:53.415" level="INFO">Current location is 'http://truongnha.com/school/viewClassDetail/1490'.</msg>
+<status status="PASS" endtime="20131228 20:45:53.415" starttime="20131228 20:45:50.561"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:33.326" starttime="20131228 19:00:31.636"></status>
+<status status="PASS" endtime="20131228 20:45:53.416" starttime="20131228 20:45:50.560"></status>
 </kw>
 <kw type="kw" name="resource.Submit HanhKiem">
 <doc></doc>
@@ -135,10 +135,10 @@
 <arguments>
 <arg>btn-hanhkiem</arg>
 </arguments>
-<msg timestamp="20131228 19:00:33.327" level="INFO">Clicking link 'btn-hanhkiem'.</msg>
-<status status="PASS" endtime="20131228 19:00:33.477" starttime="20131228 19:00:33.327"></status>
+<msg timestamp="20131228 20:45:53.419" level="INFO">Clicking link 'btn-hanhkiem'.</msg>
+<status status="PASS" endtime="20131228 20:45:53.565" starttime="20131228 20:45:53.418"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:33.477" starttime="20131228 19:00:33.326"></status>
+<status status="PASS" endtime="20131228 20:45:53.565" starttime="20131228 20:45:53.417"></status>
 </kw>
 <kw type="kw" name="resource.Display Hanh Kiem Page">
 <doc></doc>
@@ -150,15 +150,15 @@
 <arguments>
 <arg>${HK URL}/${id}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:34.543" level="INFO">Current location is 'http://truongnha.com/school/hanhkiem/1490'.</msg>
-<status status="PASS" endtime="20131228 19:00:34.543" starttime="20131228 19:00:33.479"></status>
+<msg timestamp="20131228 20:45:56.153" level="INFO">Current location is 'http://truongnha.com/school/hanhkiem/1490'.</msg>
+<status status="PASS" endtime="20131228 20:45:56.153" starttime="20131228 20:45:53.567"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:34.543" starttime="20131228 19:00:33.477"></status>
+<status status="PASS" endtime="20131228 20:45:56.153" starttime="20131228 20:45:53.566"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20131228 19:00:34.544" critical="yes" starttime="20131228 19:00:31.442"></status>
+<status status="PASS" endtime="20131228 20:45:56.154" critical="yes" starttime="20131228 20:45:50.351"></status>
 </test>
 <test id="s1-t4" name="Hanh Kiem 10A T1">
 <kw type="kw" name="resource.Assign Cell Id">
@@ -174,24 +174,24 @@
 <arg>xpath=//tr[@class="${tr}"]/td[@class="${td}"]/input[@class="hk"]</arg>
 <arg>${r_id}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:34.551" level="INFO">Assigning temporary id 'hk11' to element 'xpath=//tr[@class="27800"]/td[@class="hk1"]/input[@class="hk"]'</msg>
-<status status="PASS" endtime="20131228 19:00:34.571" starttime="20131228 19:00:34.550"></status>
+<msg timestamp="20131228 20:45:56.160" level="INFO">Assigning temporary id 'hk11' to element 'xpath=//tr[@class="27800"]/td[@class="hk1"]/input[@class="hk"]'</msg>
+<status status="PASS" endtime="20131228 20:45:56.180" starttime="20131228 20:45:56.159"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:34.572" starttime="20131228 19:00:34.549"></status>
+<status status="PASS" endtime="20131228 20:45:56.181" starttime="20131228 20:45:56.158"></status>
 </kw>
 <kw type="kw" name="resource.Input Cell X Value Y">
 <doc></doc>
 <arguments>
 <arg>hk11</arg>
-<arg>1</arg>
+<arg>11111111111111111111111111111111</arg>
 </arguments>
 <kw type="kw" name="Selenium2Library.Click Element">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>${cell}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:34.574" level="INFO">Clicking element 'hk11'.</msg>
-<status status="PASS" endtime="20131228 19:00:34.729" starttime="20131228 19:00:34.573"></status>
+<msg timestamp="20131228 20:45:56.183" level="INFO">Clicking element 'hk11'.</msg>
+<status status="PASS" endtime="20131228 20:45:56.351" starttime="20131228 20:45:56.182"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Input Text">
 <doc>Types the given `text` into text field identified by `locator`.</doc>
@@ -199,8 +199,8 @@
 <arg>${cell}</arg>
 <arg>${input}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:34.730" level="INFO">Typing text '1' into text field 'hk11'</msg>
-<status status="PASS" endtime="20131228 19:00:34.796" starttime="20131228 19:00:34.730"></status>
+<msg timestamp="20131228 20:45:56.352" level="INFO">Typing text '11111111111111111111111111111111' into text field 'hk11'</msg>
+<status status="PASS" endtime="20131228 20:45:56.635" starttime="20131228 20:45:56.352"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Press Key">
 <doc>Simulates user pressing key on element identified by `locator`.</doc>
@@ -208,9 +208,9 @@
 <arg>${cell}</arg>
 <arg>\\10</arg>
 </arguments>
-<status status="PASS" endtime="20131228 19:00:36.448" starttime="20131228 19:00:34.797"></status>
+<status status="PASS" endtime="20131228 20:45:56.710" starttime="20131228 20:45:56.636"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:36.448" starttime="20131228 19:00:34.572"></status>
+<status status="PASS" endtime="20131228 20:45:56.711" starttime="20131228 20:45:56.181"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Textfield Value Should Be">
 <doc>Verifies the value in text field identified by `locator` is exactly `expected`.</doc>
@@ -218,8 +218,8 @@
 <arg>hk11</arg>
 <arg></arg>
 </arguments>
-<msg timestamp="20131228 19:00:36.481" level="INFO">Content of text field 'hk11' is ''.</msg>
-<status status="PASS" endtime="20131228 19:00:36.482" starttime="20131228 19:00:36.449"></status>
+<msg timestamp="20131228 20:45:56.746" level="INFO">Content of text field 'hk11' is ''.</msg>
+<status status="PASS" endtime="20131228 20:45:56.746" starttime="20131228 20:45:56.711"></status>
 </kw>
 <kw type="kw" name="resource.Assign Cell Id">
 <doc></doc>
@@ -234,24 +234,24 @@
 <arg>xpath=//tr[@class="${tr}"]/td[@class="${td}"]/input[@class="hk"]</arg>
 <arg>${r_id}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:36.484" level="INFO">Assigning temporary id 'hkt91' to element 'xpath=//tr[@class="27800"]/td[@class="col1 hk-thang"]/input[@class="hk"]'</msg>
-<status status="PASS" endtime="20131228 19:00:36.504" starttime="20131228 19:00:36.483"></status>
+<msg timestamp="20131228 20:45:56.748" level="INFO">Assigning temporary id 'hkt91' to element 'xpath=//tr[@class="27800"]/td[@class="col1 hk-thang"]/input[@class="hk"]'</msg>
+<status status="PASS" endtime="20131228 20:45:56.769" starttime="20131228 20:45:56.748"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:36.504" starttime="20131228 19:00:36.482"></status>
+<status status="PASS" endtime="20131228 20:45:56.769" starttime="20131228 20:45:56.747"></status>
 </kw>
 <kw type="kw" name="resource.Input Cell X Value Y">
 <doc></doc>
 <arguments>
 <arg>hkt91</arg>
-<arg>5</arg>
+<arg>55555555555555555555555555555555555</arg>
 </arguments>
 <kw type="kw" name="Selenium2Library.Click Element">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>${cell}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:36.506" level="INFO">Clicking element 'hkt91'.</msg>
-<status status="PASS" endtime="20131228 19:00:36.665" starttime="20131228 19:00:36.506"></status>
+<msg timestamp="20131228 20:45:56.771" level="INFO">Clicking element 'hkt91'.</msg>
+<status status="PASS" endtime="20131228 20:45:56.927" starttime="20131228 20:45:56.771"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Input Text">
 <doc>Types the given `text` into text field identified by `locator`.</doc>
@@ -259,8 +259,8 @@
 <arg>${cell}</arg>
 <arg>${input}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:36.666" level="INFO">Typing text '5' into text field 'hkt91'</msg>
-<status status="PASS" endtime="20131228 19:00:36.737" starttime="20131228 19:00:36.665"></status>
+<msg timestamp="20131228 20:45:56.927" level="INFO">Typing text '55555555555555555555555555555555555' into text field 'hkt91'</msg>
+<status status="PASS" endtime="20131228 20:45:57.223" starttime="20131228 20:45:56.927"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Press Key">
 <doc>Simulates user pressing key on element identified by `locator`.</doc>
@@ -268,9 +268,9 @@
 <arg>${cell}</arg>
 <arg>\\10</arg>
 </arguments>
-<status status="PASS" endtime="20131228 19:00:36.797" starttime="20131228 19:00:36.738"></status>
+<status status="PASS" endtime="20131228 20:45:57.315" starttime="20131228 20:45:57.224"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:36.797" starttime="20131228 19:00:36.505"></status>
+<status status="PASS" endtime="20131228 20:45:57.315" starttime="20131228 20:45:56.769"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Textfield Value Should Be">
 <doc>Verifies the value in text field identified by `locator` is exactly `expected`.</doc>
@@ -282,16 +282,16 @@
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
 <arguments>
 </arguments>
-<msg timestamp="20131228 19:00:36.980" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" endtime="20131228 19:00:36.980" starttime="20131228 19:00:36.845"></status>
+<msg timestamp="20131228 20:45:57.491" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20131228 20:45:57.492" starttime="20131228 20:45:57.357"></status>
 </kw>
-<msg timestamp="20131228 19:00:36.981" level="FAIL">Value of text field 'hk91' should have been '' but was 'None'</msg>
-<status status="FAIL" endtime="20131228 19:00:36.981" starttime="20131228 19:00:36.797"></status>
+<msg timestamp="20131228 20:45:57.492" level="FAIL">Value of text field 'hk91' should have been '' but was 'None'</msg>
+<status status="FAIL" endtime="20131228 20:45:57.493" starttime="20131228 20:45:57.315"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="FAIL" endtime="20131228 19:00:36.982" critical="yes" starttime="20131228 19:00:34.547">Value of text field 'hk91' should have been '' but was 'None'</status>
+<status status="FAIL" endtime="20131228 20:45:57.493" critical="yes" starttime="20131228 20:45:56.157">Value of text field 'hk91' should have been '' but was 'None'</status>
 </test>
 <test id="s1-t5" name="Hanh Kiem 10A T2">
 <kw type="kw" name="resource.Assign Cell Id">
@@ -307,24 +307,24 @@
 <arg>xpath=//tr[@class="${tr}"]/td[@class="${td}"]/input[@class="hk"]</arg>
 <arg>${r_id}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:36.991" level="INFO">Assigning temporary id 'hk12' to element 'xpath=//tr[@class="27801"]/td[@class="hk1"]/input[@class="hk"]'</msg>
-<status status="PASS" endtime="20131228 19:00:37.013" starttime="20131228 19:00:36.990"></status>
+<msg timestamp="20131228 20:45:57.501" level="INFO">Assigning temporary id 'hk12' to element 'xpath=//tr[@class="27801"]/td[@class="hk1"]/input[@class="hk"]'</msg>
+<status status="PASS" endtime="20131228 20:45:57.521" starttime="20131228 20:45:57.500"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:37.014" starttime="20131228 19:00:36.989"></status>
+<status status="PASS" endtime="20131228 20:45:57.521" starttime="20131228 20:45:57.499"></status>
 </kw>
 <kw type="kw" name="resource.Input Cell X Value Y">
 <doc></doc>
 <arguments>
 <arg>hk12</arg>
-<arg>-</arg>
+<arg>------------------------------------</arg>
 </arguments>
 <kw type="kw" name="Selenium2Library.Click Element">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>${cell}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:37.016" level="INFO">Clicking element 'hk12'.</msg>
-<status status="PASS" endtime="20131228 19:00:37.137" starttime="20131228 19:00:37.015"></status>
+<msg timestamp="20131228 20:45:57.525" level="INFO">Clicking element 'hk12'.</msg>
+<status status="PASS" endtime="20131228 20:45:57.685" starttime="20131228 20:45:57.524"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Input Text">
 <doc>Types the given `text` into text field identified by `locator`.</doc>
@@ -332,8 +332,8 @@
 <arg>${cell}</arg>
 <arg>${input}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:37.138" level="INFO">Typing text '-' into text field 'hk12'</msg>
-<status status="PASS" endtime="20131228 19:00:37.209" starttime="20131228 19:00:37.137"></status>
+<msg timestamp="20131228 20:45:57.686" level="INFO">Typing text '------------------------------------' into text field 'hk12'</msg>
+<status status="PASS" endtime="20131228 20:45:58.169" starttime="20131228 20:45:57.685"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Press Key">
 <doc>Simulates user pressing key on element identified by `locator`.</doc>
@@ -341,9 +341,9 @@
 <arg>${cell}</arg>
 <arg>\\10</arg>
 </arguments>
-<status status="PASS" endtime="20131228 19:00:37.264" starttime="20131228 19:00:37.209"></status>
+<status status="PASS" endtime="20131228 20:45:58.228" starttime="20131228 20:45:58.170"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:37.265" starttime="20131228 19:00:37.014"></status>
+<status status="PASS" endtime="20131228 20:45:58.229" starttime="20131228 20:45:57.523"></status>
 </kw>
 <kw type="kw" name="resource.Assign Cell Id">
 <doc></doc>
@@ -358,24 +358,24 @@
 <arg>xpath=//tr[@class="${tr}"]/td[@class="${td}"]/input[@class="hk"]</arg>
 <arg>${r_id}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:37.267" level="INFO">Assigning temporary id 'hkt92' to element 'xpath=//tr[@class="27801"]/td[@class="col1 hk-thang"]/input[@class="hk"]'</msg>
-<status status="PASS" endtime="20131228 19:00:37.289" starttime="20131228 19:00:37.266"></status>
+<msg timestamp="20131228 20:45:58.231" level="INFO">Assigning temporary id 'hkt92' to element 'xpath=//tr[@class="27801"]/td[@class="col1 hk-thang"]/input[@class="hk"]'</msg>
+<status status="PASS" endtime="20131228 20:45:58.257" starttime="20131228 20:45:58.231"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:37.289" starttime="20131228 19:00:37.265"></status>
+<status status="PASS" endtime="20131228 20:45:58.257" starttime="20131228 20:45:58.229"></status>
 </kw>
 <kw type="kw" name="resource.Input Cell X Value Y">
 <doc></doc>
 <arguments>
 <arg>hkt92</arg>
-<arg>+</arg>
+<arg>++++++++++++++++++++++++++++++++++++</arg>
 </arguments>
 <kw type="kw" name="Selenium2Library.Click Element">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>${cell}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:37.292" level="INFO">Clicking element 'hkt92'.</msg>
-<status status="PASS" endtime="20131228 19:00:37.445" starttime="20131228 19:00:37.292"></status>
+<msg timestamp="20131228 20:45:58.259" level="INFO">Clicking element 'hkt92'.</msg>
+<status status="PASS" endtime="20131228 20:45:58.472" starttime="20131228 20:45:58.259"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Input Text">
 <doc>Types the given `text` into text field identified by `locator`.</doc>
@@ -383,8 +383,8 @@
 <arg>${cell}</arg>
 <arg>${input}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:37.445" level="INFO">Typing text '+' into text field 'hkt92'</msg>
-<status status="PASS" endtime="20131228 19:00:37.605" starttime="20131228 19:00:37.445"></status>
+<msg timestamp="20131228 20:45:58.473" level="INFO">Typing text '++++++++++++++++++++++++++++++++++++' into text field 'hkt92'</msg>
+<status status="PASS" endtime="20131228 20:46:03.328" starttime="20131228 20:45:58.473"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Press Key">
 <doc>Simulates user pressing key on element identified by `locator`.</doc>
@@ -392,9 +392,9 @@
 <arg>${cell}</arg>
 <arg>\\10</arg>
 </arguments>
-<status status="PASS" endtime="20131228 19:00:37.654" starttime="20131228 19:00:37.606"></status>
+<status status="PASS" endtime="20131228 20:46:03.371" starttime="20131228 20:46:03.328"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:37.654" starttime="20131228 19:00:37.291"></status>
+<status status="PASS" endtime="20131228 20:46:03.371" starttime="20131228 20:45:58.258"></status>
 </kw>
 <kw type="kw" name="resource.Assign Cell Id">
 <doc></doc>
@@ -409,24 +409,24 @@
 <arg>xpath=//tr[@class="${tr}"]/td[@class="${td}"]/input[@class="hk"]</arg>
 <arg>${r_id}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:37.657" level="INFO">Assigning temporary id 'hkt52' to element 'xpath=//tr[@class="27801"]/td[@class="col9 hk-thang"]/input[@class="hk"]'</msg>
-<status status="PASS" endtime="20131228 19:00:37.681" starttime="20131228 19:00:37.656"></status>
+<msg timestamp="20131228 20:46:03.374" level="INFO">Assigning temporary id 'hkt52' to element 'xpath=//tr[@class="27801"]/td[@class="col9 hk-thang"]/input[@class="hk"]'</msg>
+<status status="PASS" endtime="20131228 20:46:03.394" starttime="20131228 20:46:03.373"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:37.681" starttime="20131228 19:00:37.655"></status>
+<status status="PASS" endtime="20131228 20:46:03.394" starttime="20131228 20:46:03.372"></status>
 </kw>
 <kw type="kw" name="resource.Input Cell X Value Y">
 <doc></doc>
 <arguments>
 <arg>hkt52</arg>
-<arg>]</arg>
+<arg>]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]</arg>
 </arguments>
 <kw type="kw" name="Selenium2Library.Click Element">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>${cell}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:37.684" level="INFO">Clicking element 'hkt52'.</msg>
-<status status="PASS" endtime="20131228 19:00:37.851" starttime="20131228 19:00:37.684"></status>
+<msg timestamp="20131228 20:46:03.396" level="INFO">Clicking element 'hkt52'.</msg>
+<status status="PASS" endtime="20131228 20:46:03.568" starttime="20131228 20:46:03.396"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Input Text">
 <doc>Types the given `text` into text field identified by `locator`.</doc>
@@ -434,8 +434,8 @@
 <arg>${cell}</arg>
 <arg>${input}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:37.852" level="INFO">Typing text ']' into text field 'hkt52'</msg>
-<status status="PASS" endtime="20131228 19:00:37.921" starttime="20131228 19:00:37.852"></status>
+<msg timestamp="20131228 20:46:03.569" level="INFO">Typing text ']]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]' into text field 'hkt52'</msg>
+<status status="PASS" endtime="20131228 20:46:03.879" starttime="20131228 20:46:03.569"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Press Key">
 <doc>Simulates user pressing key on element identified by `locator`.</doc>
@@ -443,9 +443,9 @@
 <arg>${cell}</arg>
 <arg>\\10</arg>
 </arguments>
-<status status="PASS" endtime="20131228 19:00:37.970" starttime="20131228 19:00:37.921"></status>
+<status status="PASS" endtime="20131228 20:46:03.926" starttime="20131228 20:46:03.879"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:37.970" starttime="20131228 19:00:37.683"></status>
+<status status="PASS" endtime="20131228 20:46:03.926" starttime="20131228 20:46:03.395"></status>
 </kw>
 <kw type="kw" name="resource.Assign Cell Id">
 <doc></doc>
@@ -460,24 +460,24 @@
 <arg>xpath=//tr[@class="${tr}"]/td[@class="${td}"]/input[@class="hk"]</arg>
 <arg>${r_id}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:37.973" level="INFO">Assigning temporary id 'hkt53' to element 'xpath=//tr[@class="27801"]/td[@class="col5 hk-thang"]/input[@class="hk"]'</msg>
-<status status="PASS" endtime="20131228 19:00:38.004" starttime="20131228 19:00:37.972"></status>
+<msg timestamp="20131228 20:46:03.928" level="INFO">Assigning temporary id 'hkt53' to element 'xpath=//tr[@class="27801"]/td[@class="col5 hk-thang"]/input[@class="hk"]'</msg>
+<status status="PASS" endtime="20131228 20:46:03.949" starttime="20131228 20:46:03.928"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:38.004" starttime="20131228 19:00:37.971"></status>
+<status status="PASS" endtime="20131228 20:46:03.950" starttime="20131228 20:46:03.927"></status>
 </kw>
 <kw type="kw" name="resource.Input Cell X Value Y">
 <doc></doc>
 <arguments>
 <arg>hkt53</arg>
-<arg>;</arg>
+<arg>;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;</arg>
 </arguments>
 <kw type="kw" name="Selenium2Library.Click Element">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>${cell}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:38.006" level="INFO">Clicking element 'hkt53'.</msg>
-<status status="PASS" endtime="20131228 19:00:38.230" starttime="20131228 19:00:38.006"></status>
+<msg timestamp="20131228 20:46:03.952" level="INFO">Clicking element 'hkt53'.</msg>
+<status status="PASS" endtime="20131228 20:46:04.079" starttime="20131228 20:46:03.951"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Input Text">
 <doc>Types the given `text` into text field identified by `locator`.</doc>
@@ -485,8 +485,8 @@
 <arg>${cell}</arg>
 <arg>${input}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:38.231" level="INFO">Typing text ';' into text field 'hkt53'</msg>
-<status status="PASS" endtime="20131228 19:00:38.300" starttime="20131228 19:00:38.231"></status>
+<msg timestamp="20131228 20:46:04.080" level="INFO">Typing text ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;' into text field 'hkt53'</msg>
+<status status="PASS" endtime="20131228 20:46:04.359" starttime="20131228 20:46:04.080"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Press Key">
 <doc>Simulates user pressing key on element identified by `locator`.</doc>
@@ -494,14 +494,14 @@
 <arg>${cell}</arg>
 <arg>\\10</arg>
 </arguments>
-<status status="PASS" endtime="20131228 19:00:38.374" starttime="20131228 19:00:38.301"></status>
+<status status="PASS" endtime="20131228 20:46:04.404" starttime="20131228 20:46:04.359"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:38.374" starttime="20131228 19:00:38.005"></status>
+<status status="PASS" endtime="20131228 20:46:04.404" starttime="20131228 20:46:03.950"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20131228 19:00:38.375" critical="yes" starttime="20131228 19:00:36.987"></status>
+<status status="PASS" endtime="20131228 20:46:04.405" critical="yes" starttime="20131228 20:45:57.497"></status>
 </test>
 <test id="s1-t6" name="Hanh Kiem 10A T3">
 <kw type="kw" name="resource.Assign Cell Id">
@@ -517,24 +517,24 @@
 <arg>xpath=//tr[@class="${tr}"]/td[@class="${td}"]/input[@class="hk"]</arg>
 <arg>${r_id}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:38.384" level="INFO">Assigning temporary id 'hk113' to element 'xpath=//tr[@class="27929"]/td[@class="col5 hk-thang"]/input[@class="hk"]'</msg>
-<status status="PASS" endtime="20131228 19:00:38.406" starttime="20131228 19:00:38.383"></status>
+<msg timestamp="20131228 20:46:04.413" level="INFO">Assigning temporary id 'hk113' to element 'xpath=//tr[@class="27929"]/td[@class="col5 hk-thang"]/input[@class="hk"]'</msg>
+<status status="PASS" endtime="20131228 20:46:04.437" starttime="20131228 20:46:04.412"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:38.406" starttime="20131228 19:00:38.382"></status>
+<status status="PASS" endtime="20131228 20:46:04.437" starttime="20131228 20:46:04.411"></status>
 </kw>
 <kw type="kw" name="resource.Input Cell X Value Y">
 <doc></doc>
 <arguments>
 <arg>hk113</arg>
-<arg>A</arg>
+<arg>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</arg>
 </arguments>
 <kw type="kw" name="Selenium2Library.Click Element">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>${cell}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:38.408" level="INFO">Clicking element 'hk113'.</msg>
-<status status="PASS" endtime="20131228 19:00:38.563" starttime="20131228 19:00:38.408"></status>
+<msg timestamp="20131228 20:46:04.439" level="INFO">Clicking element 'hk113'.</msg>
+<status status="PASS" endtime="20131228 20:46:04.609" starttime="20131228 20:46:04.439"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Input Text">
 <doc>Types the given `text` into text field identified by `locator`.</doc>
@@ -542,8 +542,8 @@
 <arg>${cell}</arg>
 <arg>${input}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:38.564" level="INFO">Typing text 'A' into text field 'hk113'</msg>
-<status status="PASS" endtime="20131228 19:00:38.730" starttime="20131228 19:00:38.563"></status>
+<msg timestamp="20131228 20:46:04.609" level="INFO">Typing text 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' into text field 'hk113'</msg>
+<status status="PASS" endtime="20131228 20:46:08.827" starttime="20131228 20:46:04.609"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Press Key">
 <doc>Simulates user pressing key on element identified by `locator`.</doc>
@@ -551,9 +551,9 @@
 <arg>${cell}</arg>
 <arg>\\10</arg>
 </arguments>
-<status status="PASS" endtime="20131228 19:00:38.773" starttime="20131228 19:00:38.730"></status>
+<status status="PASS" endtime="20131228 20:46:08.880" starttime="20131228 20:46:08.827"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:38.774" starttime="20131228 19:00:38.407"></status>
+<status status="PASS" endtime="20131228 20:46:08.880" starttime="20131228 20:46:04.438"></status>
 </kw>
 <kw type="kw" name="resource.Assign Cell Id">
 <doc></doc>
@@ -568,24 +568,24 @@
 <arg>xpath=//tr[@class="${tr}"]/td[@class="${td}"]/input[@class="hk"]</arg>
 <arg>${r_id}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:38.776" level="INFO">Assigning temporary id 'hk13' to element 'xpath=//tr[@class="27929"]/td[@class="hk1"]/input[@class="hk"]'</msg>
-<status status="PASS" endtime="20131228 19:00:38.799" starttime="20131228 19:00:38.775"></status>
+<msg timestamp="20131228 20:46:08.882" level="INFO">Assigning temporary id 'hk13' to element 'xpath=//tr[@class="27929"]/td[@class="hk1"]/input[@class="hk"]'</msg>
+<status status="PASS" endtime="20131228 20:46:08.905" starttime="20131228 20:46:08.882"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:38.799" starttime="20131228 19:00:38.774"></status>
+<status status="PASS" endtime="20131228 20:46:08.905" starttime="20131228 20:46:08.881"></status>
 </kw>
 <kw type="kw" name="resource.Input Cell X Value Y">
 <doc></doc>
 <arguments>
 <arg>hk13</arg>
-<arg>O</arg>
+<arg>OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO</arg>
 </arguments>
 <kw type="kw" name="Selenium2Library.Click Element">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>${cell}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:38.801" level="INFO">Clicking element 'hk13'.</msg>
-<status status="PASS" endtime="20131228 19:00:38.926" starttime="20131228 19:00:38.801"></status>
+<msg timestamp="20131228 20:46:08.907" level="INFO">Clicking element 'hk13'.</msg>
+<status status="PASS" endtime="20131228 20:46:09.050" starttime="20131228 20:46:08.907"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Input Text">
 <doc>Types the given `text` into text field identified by `locator`.</doc>
@@ -593,8 +593,8 @@
 <arg>${cell}</arg>
 <arg>${input}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:38.927" level="INFO">Typing text 'O' into text field 'hk13'</msg>
-<status status="PASS" endtime="20131228 19:00:39.092" starttime="20131228 19:00:38.926"></status>
+<msg timestamp="20131228 20:46:09.051" level="INFO">Typing text 'OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO' into text field 'hk13'</msg>
+<status status="PASS" endtime="20131228 20:46:13.038" starttime="20131228 20:46:09.050"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Press Key">
 <doc>Simulates user pressing key on element identified by `locator`.</doc>
@@ -602,9 +602,9 @@
 <arg>${cell}</arg>
 <arg>\\10</arg>
 </arguments>
-<status status="PASS" endtime="20131228 19:00:39.137" starttime="20131228 19:00:39.093"></status>
+<status status="PASS" endtime="20131228 20:46:13.081" starttime="20131228 20:46:13.039"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:39.137" starttime="20131228 19:00:38.800"></status>
+<status status="PASS" endtime="20131228 20:46:13.081" starttime="20131228 20:46:08.906"></status>
 </kw>
 <kw type="kw" name="resource.Assign Cell Id">
 <doc></doc>
@@ -619,24 +619,24 @@
 <arg>xpath=//tr[@class="${tr}"]/td[@class="${td}"]/input[@class="hk"]</arg>
 <arg>${r_id}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:39.139" level="INFO">Assigning temporary id 'hkt93' to element 'xpath=//tr[@class="27929"]/td[@class="col1 hk-thang"]/input[@class="hk"]'</msg>
-<status status="PASS" endtime="20131228 19:00:39.158" starttime="20131228 19:00:39.139"></status>
+<msg timestamp="20131228 20:46:13.084" level="INFO">Assigning temporary id 'hkt93' to element 'xpath=//tr[@class="27929"]/td[@class="col1 hk-thang"]/input[@class="hk"]'</msg>
+<status status="PASS" endtime="20131228 20:46:13.104" starttime="20131228 20:46:13.083"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:39.159" starttime="20131228 19:00:39.137"></status>
+<status status="PASS" endtime="20131228 20:46:13.105" starttime="20131228 20:46:13.082"></status>
 </kw>
 <kw type="kw" name="resource.Input Cell X Value Y">
 <doc></doc>
 <arguments>
 <arg>hkt93</arg>
-<arg>U</arg>
+<arg>UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU</arg>
 </arguments>
 <kw type="kw" name="Selenium2Library.Click Element">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>${cell}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:39.161" level="INFO">Clicking element 'hkt93'.</msg>
-<status status="PASS" endtime="20131228 19:00:39.317" starttime="20131228 19:00:39.160"></status>
+<msg timestamp="20131228 20:46:13.106" level="INFO">Clicking element 'hkt93'.</msg>
+<status status="PASS" endtime="20131228 20:46:13.270" starttime="20131228 20:46:13.106"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Input Text">
 <doc>Types the given `text` into text field identified by `locator`.</doc>
@@ -644,8 +644,8 @@
 <arg>${cell}</arg>
 <arg>${input}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:39.317" level="INFO">Typing text 'U' into text field 'hkt93'</msg>
-<status status="PASS" endtime="20131228 19:00:39.486" starttime="20131228 19:00:39.317"></status>
+<msg timestamp="20131228 20:46:13.271" level="INFO">Typing text 'UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU' into text field 'hkt93'</msg>
+<status status="PASS" endtime="20131228 20:46:17.241" starttime="20131228 20:46:13.271"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Press Key">
 <doc>Simulates user pressing key on element identified by `locator`.</doc>
@@ -653,9 +653,9 @@
 <arg>${cell}</arg>
 <arg>\\10</arg>
 </arguments>
-<status status="PASS" endtime="20131228 19:00:39.530" starttime="20131228 19:00:39.487"></status>
+<status status="PASS" endtime="20131228 20:46:17.291" starttime="20131228 20:46:17.241"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:39.530" starttime="20131228 19:00:39.159"></status>
+<status status="PASS" endtime="20131228 20:46:17.291" starttime="20131228 20:46:13.105"></status>
 </kw>
 <kw type="kw" name="resource.Assign Cell Id">
 <doc></doc>
@@ -670,24 +670,24 @@
 <arg>xpath=//tr[@class="${tr}"]/td[@class="${td}"]/input[@class="hk"]</arg>
 <arg>${r_id}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:39.533" level="INFO">Assigning temporary id 'hkt53' to element 'xpath=//tr[@class="27929"]/td[@class="col9 hk-thang"]/input[@class="hk"]'</msg>
-<status status="PASS" endtime="20131228 19:00:39.554" starttime="20131228 19:00:39.532"></status>
+<msg timestamp="20131228 20:46:17.294" level="INFO">Assigning temporary id 'hkt53' to element 'xpath=//tr[@class="27929"]/td[@class="col9 hk-thang"]/input[@class="hk"]'</msg>
+<status status="PASS" endtime="20131228 20:46:17.314" starttime="20131228 20:46:17.293"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:39.554" starttime="20131228 19:00:39.531"></status>
+<status status="PASS" endtime="20131228 20:46:17.314" starttime="20131228 20:46:17.292"></status>
 </kw>
 <kw type="kw" name="resource.Input Cell X Value Y">
 <doc></doc>
 <arguments>
 <arg>hkt53</arg>
-<arg>I</arg>
+<arg>IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII</arg>
 </arguments>
 <kw type="kw" name="Selenium2Library.Click Element">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>${cell}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:39.556" level="INFO">Clicking element 'hkt53'.</msg>
-<status status="PASS" endtime="20131228 19:00:39.707" starttime="20131228 19:00:39.556"></status>
+<msg timestamp="20131228 20:46:17.316" level="INFO">Clicking element 'hkt53'.</msg>
+<status status="PASS" endtime="20131228 20:46:17.471" starttime="20131228 20:46:17.316"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Input Text">
 <doc>Types the given `text` into text field identified by `locator`.</doc>
@@ -695,8 +695,8 @@
 <arg>${cell}</arg>
 <arg>${input}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:39.708" level="INFO">Typing text 'I' into text field 'hkt53'</msg>
-<status status="PASS" endtime="20131228 19:00:39.874" starttime="20131228 19:00:39.707"></status>
+<msg timestamp="20131228 20:46:17.472" level="INFO">Typing text 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII' into text field 'hkt53'</msg>
+<status status="PASS" endtime="20131228 20:46:21.728" starttime="20131228 20:46:17.471"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Press Key">
 <doc>Simulates user pressing key on element identified by `locator`.</doc>
@@ -704,14 +704,14 @@
 <arg>${cell}</arg>
 <arg>\\10</arg>
 </arguments>
-<status status="PASS" endtime="20131228 19:00:39.922" starttime="20131228 19:00:39.874"></status>
+<status status="PASS" endtime="20131228 20:46:21.777" starttime="20131228 20:46:21.728"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:39.922" starttime="20131228 19:00:39.554"></status>
+<status status="PASS" endtime="20131228 20:46:21.777" starttime="20131228 20:46:17.315"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20131228 19:00:39.923" critical="yes" starttime="20131228 19:00:38.379"></status>
+<status status="PASS" endtime="20131228 20:46:21.778" critical="yes" starttime="20131228 20:46:04.409"></status>
 </test>
 <test id="s1-t7" name="Switching Class 10B">
 <kw type="kw" name="resource.Go To Class Selected">
@@ -730,8 +730,8 @@
 <arguments>
 <arg>${cell}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:39.930" level="INFO">Clicking element 'xpath=//select[@name="class"]'.</msg>
-<status status="PASS" endtime="20131228 19:00:40.054" starttime="20131228 19:00:39.930"></status>
+<msg timestamp="20131228 20:46:21.786" level="INFO">Clicking element 'xpath=//select[@name="class"]'.</msg>
+<status status="PASS" endtime="20131228 20:46:21.898" starttime="20131228 20:46:21.785"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Select From List By Value">
 <doc>Selects `*values` from list identified by `locator`</doc>
@@ -739,8 +739,8 @@
 <arg>${cell}</arg>
 <arg>${input}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:40.055" level="INFO">Selecting value(s) '1491' from list 'xpath=//select[@name="class"]'.</msg>
-<status status="PASS" endtime="20131228 19:00:40.930" starttime="20131228 19:00:40.054"></status>
+<msg timestamp="20131228 20:46:21.898" level="INFO">Selecting value(s) '1491' from list 'xpath=//select[@name="class"]'.</msg>
+<status status="PASS" endtime="20131228 20:46:23.119" starttime="20131228 20:46:21.898"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Press Key">
 <doc>Simulates user pressing key on element identified by `locator`.</doc>
@@ -748,9 +748,9 @@
 <arg>${cell}</arg>
 <arg>\\10</arg>
 </arguments>
-<status status="PASS" endtime="20131228 19:00:42.323" starttime="20131228 19:00:40.931"></status>
+<status status="PASS" endtime="20131228 20:46:23.200" starttime="20131228 20:46:23.119"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:42.323" starttime="20131228 19:00:39.929"></status>
+<status status="PASS" endtime="20131228 20:46:23.201" starttime="20131228 20:46:21.784"></status>
 </kw>
 <kw type="kw" name="resource.Go To Class">
 <doc></doc>
@@ -762,10 +762,10 @@
 <arguments>
 <arg>${HK URL}/${cell}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:42.325" level="INFO">Opening url 'http://truongnha.com/school/hanhkiem/1491'</msg>
-<status status="PASS" endtime="20131228 19:00:43.502" starttime="20131228 19:00:42.325"></status>
+<msg timestamp="20131228 20:46:23.202" level="INFO">Opening url 'http://truongnha.com/school/hanhkiem/1491'</msg>
+<status status="PASS" endtime="20131228 20:46:24.137" starttime="20131228 20:46:23.202"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:43.502" starttime="20131228 19:00:42.324"></status>
+<status status="PASS" endtime="20131228 20:46:24.137" starttime="20131228 20:46:23.201"></status>
 </kw>
 <kw type="kw" name="resource.Display Hanh Kiem Page">
 <doc></doc>
@@ -777,17 +777,17 @@
 <arguments>
 <arg>${HK URL}/${id}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:43.517" level="INFO">Current location is 'http://truongnha.com/school/hanhkiem/1491'.</msg>
-<status status="PASS" endtime="20131228 19:00:43.517" starttime="20131228 19:00:43.504"></status>
+<msg timestamp="20131228 20:46:24.166" level="INFO">Current location is 'http://truongnha.com/school/hanhkiem/1491'.</msg>
+<status status="PASS" endtime="20131228 20:46:24.166" starttime="20131228 20:46:24.138"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:43.517" starttime="20131228 19:00:43.503"></status>
+<status status="PASS" endtime="20131228 20:46:24.166" starttime="20131228 20:46:24.137"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:43.517" starttime="20131228 19:00:39.928"></status>
+<status status="PASS" endtime="20131228 20:46:24.167" starttime="20131228 20:46:21.783"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20131228 19:00:43.519" critical="yes" starttime="20131228 19:00:39.926"></status>
+<status status="PASS" endtime="20131228 20:46:24.167" critical="yes" starttime="20131228 20:46:21.782"></status>
 </test>
 <test id="s1-t8" name="Hanh Kiem 10B T4">
 <kw type="kw" name="resource.Assign Cell Id">
@@ -803,24 +803,24 @@
 <arg>xpath=//tr[@class="${tr}"]/td[@class="${td}"]/input[@class="hk"]</arg>
 <arg>${r_id}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:43.526" level="INFO">Assigning temporary id 'hk1b1' to element 'xpath=//tr[@class="27938"]/td[@class="col5 hk-thang"]/input[@class="hk"]'</msg>
-<status status="PASS" endtime="20131228 19:00:43.553" starttime="20131228 19:00:43.525"></status>
+<msg timestamp="20131228 20:46:24.175" level="INFO">Assigning temporary id 'hk1b1' to element 'xpath=//tr[@class="27938"]/td[@class="col5 hk-thang"]/input[@class="hk"]'</msg>
+<status status="PASS" endtime="20131228 20:46:24.195" starttime="20131228 20:46:24.175"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:43.553" starttime="20131228 19:00:43.524"></status>
+<status status="PASS" endtime="20131228 20:46:24.195" starttime="20131228 20:46:24.174"></status>
 </kw>
 <kw type="kw" name="resource.Input Cell X Value Y">
 <doc></doc>
 <arguments>
 <arg>hk1b1</arg>
-<arg>Z</arg>
+<arg>ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ</arg>
 </arguments>
 <kw type="kw" name="Selenium2Library.Click Element">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>${cell}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:43.555" level="INFO">Clicking element 'hk1b1'.</msg>
-<status status="PASS" endtime="20131228 19:00:43.740" starttime="20131228 19:00:43.555"></status>
+<msg timestamp="20131228 20:46:24.197" level="INFO">Clicking element 'hk1b1'.</msg>
+<status status="PASS" endtime="20131228 20:46:24.361" starttime="20131228 20:46:24.197"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Input Text">
 <doc>Types the given `text` into text field identified by `locator`.</doc>
@@ -828,8 +828,8 @@
 <arg>${cell}</arg>
 <arg>${input}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:43.741" level="INFO">Typing text 'Z' into text field 'hk1b1'</msg>
-<status status="PASS" endtime="20131228 19:00:43.902" starttime="20131228 19:00:43.740"></status>
+<msg timestamp="20131228 20:46:24.362" level="INFO">Typing text 'ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ' into text field 'hk1b1'</msg>
+<status status="PASS" endtime="20131228 20:46:28.514" starttime="20131228 20:46:24.361"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Press Key">
 <doc>Simulates user pressing key on element identified by `locator`.</doc>
@@ -837,9 +837,9 @@
 <arg>${cell}</arg>
 <arg>\\10</arg>
 </arguments>
-<status status="PASS" endtime="20131228 19:00:43.956" starttime="20131228 19:00:43.902"></status>
+<status status="PASS" endtime="20131228 20:46:28.573" starttime="20131228 20:46:28.514"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:43.956" starttime="20131228 19:00:43.553"></status>
+<status status="PASS" endtime="20131228 20:46:28.573" starttime="20131228 20:46:24.196"></status>
 </kw>
 <kw type="kw" name="resource.Assign Cell Id">
 <doc></doc>
@@ -854,24 +854,24 @@
 <arg>xpath=//tr[@class="${tr}"]/td[@class="${td}"]/input[@class="hk"]</arg>
 <arg>${r_id}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:43.958" level="INFO">Assigning temporary id 'hkt9b1' to element 'xpath=//tr[@class="27938"]/td[@class="hk1"]/input[@class="hk"]'</msg>
-<status status="PASS" endtime="20131228 19:00:43.978" starttime="20131228 19:00:43.958"></status>
+<msg timestamp="20131228 20:46:28.576" level="INFO">Assigning temporary id 'hkt9b1' to element 'xpath=//tr[@class="27938"]/td[@class="hk1"]/input[@class="hk"]'</msg>
+<status status="PASS" endtime="20131228 20:46:28.595" starttime="20131228 20:46:28.575"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:43.979" starttime="20131228 19:00:43.957"></status>
+<status status="PASS" endtime="20131228 20:46:28.596" starttime="20131228 20:46:28.574"></status>
 </kw>
 <kw type="kw" name="resource.Input Cell X Value Y">
 <doc></doc>
 <arguments>
 <arg>hkt9b1</arg>
-<arg>Y</arg>
+<arg>YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY</arg>
 </arguments>
 <kw type="kw" name="Selenium2Library.Click Element">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>${cell}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:43.981" level="INFO">Clicking element 'hkt9b1'.</msg>
-<status status="PASS" endtime="20131228 19:00:44.149" starttime="20131228 19:00:43.980"></status>
+<msg timestamp="20131228 20:46:28.597" level="INFO">Clicking element 'hkt9b1'.</msg>
+<status status="PASS" endtime="20131228 20:46:28.768" starttime="20131228 20:46:28.597"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Input Text">
 <doc>Types the given `text` into text field identified by `locator`.</doc>
@@ -879,8 +879,8 @@
 <arg>${cell}</arg>
 <arg>${input}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:44.150" level="INFO">Typing text 'Y' into text field 'hkt9b1'</msg>
-<status status="PASS" endtime="20131228 19:00:44.314" starttime="20131228 19:00:44.149"></status>
+<msg timestamp="20131228 20:46:28.769" level="INFO">Typing text 'YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY' into text field 'hkt9b1'</msg>
+<status status="PASS" endtime="20131228 20:46:32.905" starttime="20131228 20:46:28.768"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Press Key">
 <doc>Simulates user pressing key on element identified by `locator`.</doc>
@@ -888,9 +888,9 @@
 <arg>${cell}</arg>
 <arg>\\10</arg>
 </arguments>
-<status status="PASS" endtime="20131228 19:00:44.404" starttime="20131228 19:00:44.314"></status>
+<status status="PASS" endtime="20131228 20:46:32.994" starttime="20131228 20:46:32.905"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:44.405" starttime="20131228 19:00:43.979"></status>
+<status status="PASS" endtime="20131228 20:46:32.994" starttime="20131228 20:46:28.596"></status>
 </kw>
 <kw type="kw" name="resource.Assign Cell Id">
 <doc></doc>
@@ -905,24 +905,24 @@
 <arg>xpath=//tr[@class="${tr}"]/td[@class="${td}"]/input[@class="hk"]</arg>
 <arg>${r_id}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:44.407" level="INFO">Assigning temporary id 'hkt10b1' to element 'xpath=//tr[@class="27938"]/td[@class="col1 hk-thang"]/input[@class="hk"]'</msg>
-<status status="PASS" endtime="20131228 19:00:44.447" starttime="20131228 19:00:44.406"></status>
+<msg timestamp="20131228 20:46:32.997" level="INFO">Assigning temporary id 'hkt10b1' to element 'xpath=//tr[@class="27938"]/td[@class="col1 hk-thang"]/input[@class="hk"]'</msg>
+<status status="PASS" endtime="20131228 20:46:33.020" starttime="20131228 20:46:32.996"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:44.447" starttime="20131228 19:00:44.405"></status>
+<status status="PASS" endtime="20131228 20:46:33.021" starttime="20131228 20:46:32.995"></status>
 </kw>
 <kw type="kw" name="resource.Input Cell X Value Y">
 <doc></doc>
 <arguments>
 <arg>hkt10b1</arg>
-<arg>Z</arg>
+<arg>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</arg>
 </arguments>
 <kw type="kw" name="Selenium2Library.Click Element">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>${cell}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:44.450" level="INFO">Clicking element 'hkt10b1'.</msg>
-<status status="PASS" endtime="20131228 19:00:44.771" starttime="20131228 19:00:44.449"></status>
+<msg timestamp="20131228 20:46:33.026" level="INFO">Clicking element 'hkt10b1'.</msg>
+<status status="PASS" endtime="20131228 20:46:33.238" starttime="20131228 20:46:33.025"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Input Text">
 <doc>Types the given `text` into text field identified by `locator`.</doc>
@@ -930,8 +930,8 @@
 <arg>${cell}</arg>
 <arg>${input}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:44.772" level="INFO">Typing text 'Z' into text field 'hkt10b1'</msg>
-<status status="PASS" endtime="20131228 19:00:44.942" starttime="20131228 19:00:44.771"></status>
+<msg timestamp="20131228 20:46:33.239" level="INFO">Typing text 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX' into text field 'hkt10b1'</msg>
+<status status="PASS" endtime="20131228 20:46:37.738" starttime="20131228 20:46:33.238"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Press Key">
 <doc>Simulates user pressing key on element identified by `locator`.</doc>
@@ -939,9 +939,9 @@
 <arg>${cell}</arg>
 <arg>\\10</arg>
 </arguments>
-<status status="PASS" endtime="20131228 19:00:44.995" starttime="20131228 19:00:44.942"></status>
+<status status="PASS" endtime="20131228 20:46:37.781" starttime="20131228 20:46:37.739"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:44.995" starttime="20131228 19:00:44.448"></status>
+<status status="PASS" endtime="20131228 20:46:37.781" starttime="20131228 20:46:33.024"></status>
 </kw>
 <kw type="kw" name="resource.Assign Cell Id">
 <doc></doc>
@@ -956,24 +956,24 @@
 <arg>xpath=//tr[@class="${tr}"]/td[@class="${td}"]/input[@class="hk"]</arg>
 <arg>${r_id}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:44.997" level="INFO">Assigning temporary id 'hkt11b1' to element 'xpath=//tr[@class="27938"]/td[@class="col9 hk-thang"]/input[@class="hk"]'</msg>
-<status status="PASS" endtime="20131228 19:00:45.023" starttime="20131228 19:00:44.997"></status>
+<msg timestamp="20131228 20:46:37.783" level="INFO">Assigning temporary id 'hkt11b1' to element 'xpath=//tr[@class="27938"]/td[@class="col9 hk-thang"]/input[@class="hk"]'</msg>
+<status status="PASS" endtime="20131228 20:46:37.803" starttime="20131228 20:46:37.783"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:45.023" starttime="20131228 19:00:44.996"></status>
+<status status="PASS" endtime="20131228 20:46:37.804" starttime="20131228 20:46:37.782"></status>
 </kw>
 <kw type="kw" name="resource.Input Cell X Value Y">
 <doc></doc>
 <arguments>
 <arg>hkt11b1</arg>
-<arg>K</arg>
+<arg>KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK</arg>
 </arguments>
 <kw type="kw" name="Selenium2Library.Click Element">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>${cell}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:45.025" level="INFO">Clicking element 'hkt11b1'.</msg>
-<status status="PASS" endtime="20131228 19:00:45.179" starttime="20131228 19:00:45.025"></status>
+<msg timestamp="20131228 20:46:37.806" level="INFO">Clicking element 'hkt11b1'.</msg>
+<status status="PASS" endtime="20131228 20:46:37.964" starttime="20131228 20:46:37.805"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Input Text">
 <doc>Types the given `text` into text field identified by `locator`.</doc>
@@ -981,8 +981,8 @@
 <arg>${cell}</arg>
 <arg>${input}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:45.180" level="INFO">Typing text 'K' into text field 'hkt11b1'</msg>
-<status status="PASS" endtime="20131228 19:00:45.343" starttime="20131228 19:00:45.179"></status>
+<msg timestamp="20131228 20:46:37.965" level="INFO">Typing text 'KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK' into text field 'hkt11b1'</msg>
+<status status="PASS" endtime="20131228 20:46:42.012" starttime="20131228 20:46:37.964"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Press Key">
 <doc>Simulates user pressing key on element identified by `locator`.</doc>
@@ -990,14 +990,14 @@
 <arg>${cell}</arg>
 <arg>\\10</arg>
 </arguments>
-<status status="PASS" endtime="20131228 19:00:45.423" starttime="20131228 19:00:45.343"></status>
+<status status="PASS" endtime="20131228 20:46:42.055" starttime="20131228 20:46:42.013"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:45.424" starttime="20131228 19:00:45.024"></status>
+<status status="PASS" endtime="20131228 20:46:42.056" starttime="20131228 20:46:37.804"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20131228 19:00:45.424" critical="yes" starttime="20131228 19:00:43.523"></status>
+<status status="PASS" endtime="20131228 20:46:42.056" critical="yes" starttime="20131228 20:46:24.172"></status>
 </test>
 <test id="s1-t9" name="Hanh Kiem 10B T5">
 <kw type="kw" name="resource.Assign Cell Id">
@@ -1013,24 +1013,24 @@
 <arg>xpath=//tr[@class="${tr}"]/td[@class="${td}"]/input[@class="hk"]</arg>
 <arg>${r_id}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:45.431" level="INFO">Assigning temporary id 'hk1b1_1' to element 'xpath=//tr[@class="27939"]/td[@class="col5 hk-thang"]/input[@class="hk"]'</msg>
-<status status="PASS" endtime="20131228 19:00:45.457" starttime="20131228 19:00:45.431"></status>
+<msg timestamp="20131228 20:46:42.061" level="INFO">Assigning temporary id 'hk1b1_1' to element 'xpath=//tr[@class="27939"]/td[@class="col5 hk-thang"]/input[@class="hk"]'</msg>
+<status status="PASS" endtime="20131228 20:46:42.084" starttime="20131228 20:46:42.061"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:45.457" starttime="20131228 19:00:45.430"></status>
+<status status="PASS" endtime="20131228 20:46:42.085" starttime="20131228 20:46:42.059"></status>
 </kw>
 <kw type="kw" name="resource.Input Cell X Value Y">
 <doc></doc>
 <arguments>
 <arg>hk1b1_1</arg>
-<arg>M</arg>
+<arg>MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM</arg>
 </arguments>
 <kw type="kw" name="Selenium2Library.Click Element">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>${cell}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:45.459" level="INFO">Clicking element 'hk1b1_1'.</msg>
-<status status="PASS" endtime="20131228 19:00:45.596" starttime="20131228 19:00:45.459"></status>
+<msg timestamp="20131228 20:46:42.089" level="INFO">Clicking element 'hk1b1_1'.</msg>
+<status status="PASS" endtime="20131228 20:46:42.231" starttime="20131228 20:46:42.088"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Input Text">
 <doc>Types the given `text` into text field identified by `locator`.</doc>
@@ -1038,8 +1038,8 @@
 <arg>${cell}</arg>
 <arg>${input}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:45.598" level="INFO">Typing text 'M' into text field 'hk1b1_1'</msg>
-<status status="PASS" endtime="20131228 19:00:45.774" starttime="20131228 19:00:45.597"></status>
+<msg timestamp="20131228 20:46:42.232" level="INFO">Typing text 'MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM' into text field 'hk1b1_1'</msg>
+<status status="PASS" endtime="20131228 20:46:46.489" starttime="20131228 20:46:42.231"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Press Key">
 <doc>Simulates user pressing key on element identified by `locator`.</doc>
@@ -1047,9 +1047,9 @@
 <arg>${cell}</arg>
 <arg>\\10</arg>
 </arguments>
-<status status="PASS" endtime="20131228 19:00:45.823" starttime="20131228 19:00:45.774"></status>
+<status status="PASS" endtime="20131228 20:46:46.535" starttime="20131228 20:46:46.490"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:45.823" starttime="20131228 19:00:45.458"></status>
+<status status="PASS" endtime="20131228 20:46:46.535" starttime="20131228 20:46:42.087"></status>
 </kw>
 <kw type="kw" name="resource.Assign Cell Id">
 <doc></doc>
@@ -1064,24 +1064,24 @@
 <arg>xpath=//tr[@class="${tr}"]/td[@class="${td}"]/input[@class="hk"]</arg>
 <arg>${r_id}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:45.825" level="INFO">Assigning temporary id 'hkt9b1_1' to element 'xpath=//tr[@class="27939"]/td[@class="hk1"]/input[@class="hk"]'</msg>
-<status status="PASS" endtime="20131228 19:00:45.843" starttime="20131228 19:00:45.825"></status>
+<msg timestamp="20131228 20:46:46.538" level="INFO">Assigning temporary id 'hkt9b1_1' to element 'xpath=//tr[@class="27939"]/td[@class="hk1"]/input[@class="hk"]'</msg>
+<status status="PASS" endtime="20131228 20:46:46.559" starttime="20131228 20:46:46.537"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:45.844" starttime="20131228 19:00:45.823"></status>
+<status status="PASS" endtime="20131228 20:46:46.560" starttime="20131228 20:46:46.536"></status>
 </kw>
 <kw type="kw" name="resource.Input Cell X Value Y">
 <doc></doc>
 <arguments>
 <arg>hkt9b1_1</arg>
-<arg>N</arg>
+<arg>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</arg>
 </arguments>
 <kw type="kw" name="Selenium2Library.Click Element">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>${cell}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:45.846" level="INFO">Clicking element 'hkt9b1_1'.</msg>
-<status status="PASS" endtime="20131228 19:00:45.996" starttime="20131228 19:00:45.845"></status>
+<msg timestamp="20131228 20:46:46.562" level="INFO">Clicking element 'hkt9b1_1'.</msg>
+<status status="PASS" endtime="20131228 20:46:46.677" starttime="20131228 20:46:46.561"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Input Text">
 <doc>Types the given `text` into text field identified by `locator`.</doc>
@@ -1089,8 +1089,8 @@
 <arg>${cell}</arg>
 <arg>${input}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:45.997" level="INFO">Typing text 'N' into text field 'hkt9b1_1'</msg>
-<status status="PASS" endtime="20131228 19:00:46.161" starttime="20131228 19:00:45.996"></status>
+<msg timestamp="20131228 20:46:46.678" level="INFO">Typing text 'NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN' into text field 'hkt9b1_1'</msg>
+<status status="PASS" endtime="20131228 20:46:51.063" starttime="20131228 20:46:46.677"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Press Key">
 <doc>Simulates user pressing key on element identified by `locator`.</doc>
@@ -1098,9 +1098,9 @@
 <arg>${cell}</arg>
 <arg>\\10</arg>
 </arguments>
-<status status="PASS" endtime="20131228 19:00:46.204" starttime="20131228 19:00:46.161"></status>
+<status status="PASS" endtime="20131228 20:46:51.106" starttime="20131228 20:46:51.063"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:46.205" starttime="20131228 19:00:45.844"></status>
+<status status="PASS" endtime="20131228 20:46:51.107" starttime="20131228 20:46:46.560"></status>
 </kw>
 <kw type="kw" name="resource.Assign Cell Id">
 <doc></doc>
@@ -1115,24 +1115,24 @@
 <arg>xpath=//tr[@class="${tr}"]/td[@class="${td}"]/input[@class="hk"]</arg>
 <arg>${r_id}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:46.207" level="INFO">Assigning temporary id 'hkt10b1_1' to element 'xpath=//tr[@class="27939"]/td[@class="col1 hk-thang"]/input[@class="hk"]'</msg>
-<status status="PASS" endtime="20131228 19:00:46.229" starttime="20131228 19:00:46.206"></status>
+<msg timestamp="20131228 20:46:51.109" level="INFO">Assigning temporary id 'hkt10b1_1' to element 'xpath=//tr[@class="27939"]/td[@class="col1 hk-thang"]/input[@class="hk"]'</msg>
+<status status="PASS" endtime="20131228 20:46:51.132" starttime="20131228 20:46:51.108"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:46.229" starttime="20131228 19:00:46.205"></status>
+<status status="PASS" endtime="20131228 20:46:51.132" starttime="20131228 20:46:51.107"></status>
 </kw>
 <kw type="kw" name="resource.Input Cell X Value Y">
 <doc></doc>
 <arguments>
 <arg>hkt10b1_1</arg>
-<arg>P</arg>
+<arg>PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP</arg>
 </arguments>
 <kw type="kw" name="Selenium2Library.Click Element">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>${cell}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:46.231" level="INFO">Clicking element 'hkt10b1_1'.</msg>
-<status status="PASS" endtime="20131228 19:00:46.411" starttime="20131228 19:00:46.231"></status>
+<msg timestamp="20131228 20:46:51.134" level="INFO">Clicking element 'hkt10b1_1'.</msg>
+<status status="PASS" endtime="20131228 20:46:51.273" starttime="20131228 20:46:51.134"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Input Text">
 <doc>Types the given `text` into text field identified by `locator`.</doc>
@@ -1140,8 +1140,8 @@
 <arg>${cell}</arg>
 <arg>${input}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:46.412" level="INFO">Typing text 'P' into text field 'hkt10b1_1'</msg>
-<status status="PASS" endtime="20131228 19:00:46.581" starttime="20131228 19:00:46.411"></status>
+<msg timestamp="20131228 20:46:51.274" level="INFO">Typing text 'PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP' into text field 'hkt10b1_1'</msg>
+<status status="PASS" endtime="20131228 20:46:55.678" starttime="20131228 20:46:51.273"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Press Key">
 <doc>Simulates user pressing key on element identified by `locator`.</doc>
@@ -1149,9 +1149,9 @@
 <arg>${cell}</arg>
 <arg>\\10</arg>
 </arguments>
-<status status="PASS" endtime="20131228 19:00:46.647" starttime="20131228 19:00:46.581"></status>
+<status status="PASS" endtime="20131228 20:46:55.724" starttime="20131228 20:46:55.678"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:46.647" starttime="20131228 19:00:46.230"></status>
+<status status="PASS" endtime="20131228 20:46:55.724" starttime="20131228 20:46:51.132"></status>
 </kw>
 <kw type="kw" name="resource.Assign Cell Id">
 <doc></doc>
@@ -1166,24 +1166,24 @@
 <arg>xpath=//tr[@class="${tr}"]/td[@class="${td}"]/input[@class="hk"]</arg>
 <arg>${r_id}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:46.649" level="INFO">Assigning temporary id 'hkt11b1_1' to element 'xpath=//tr[@class="27939"]/td[@class="col9 hk-thang"]/input[@class="hk"]'</msg>
-<status status="PASS" endtime="20131228 19:00:46.672" starttime="20131228 19:00:46.649"></status>
+<msg timestamp="20131228 20:46:55.728" level="INFO">Assigning temporary id 'hkt11b1_1' to element 'xpath=//tr[@class="27939"]/td[@class="col9 hk-thang"]/input[@class="hk"]'</msg>
+<status status="PASS" endtime="20131228 20:46:55.750" starttime="20131228 20:46:55.728"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:46.672" starttime="20131228 19:00:46.648"></status>
+<status status="PASS" endtime="20131228 20:46:55.750" starttime="20131228 20:46:55.727"></status>
 </kw>
 <kw type="kw" name="resource.Input Cell X Value Y">
 <doc></doc>
 <arguments>
 <arg>hkt11b1_1</arg>
-<arg>Q</arg>
+<arg>QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ</arg>
 </arguments>
 <kw type="kw" name="Selenium2Library.Click Element">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>${cell}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:46.674" level="INFO">Clicking element 'hkt11b1_1'.</msg>
-<status status="PASS" endtime="20131228 19:00:46.847" starttime="20131228 19:00:46.674"></status>
+<msg timestamp="20131228 20:46:55.754" level="INFO">Clicking element 'hkt11b1_1'.</msg>
+<status status="PASS" endtime="20131228 20:46:56.214" starttime="20131228 20:46:55.753"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Input Text">
 <doc>Types the given `text` into text field identified by `locator`.</doc>
@@ -1191,8 +1191,8 @@
 <arg>${cell}</arg>
 <arg>${input}</arg>
 </arguments>
-<msg timestamp="20131228 19:00:46.848" level="INFO">Typing text 'Q' into text field 'hkt11b1_1'</msg>
-<status status="PASS" endtime="20131228 19:00:47.107" starttime="20131228 19:00:46.848"></status>
+<msg timestamp="20131228 20:46:56.215" level="INFO">Typing text 'QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ' into text field 'hkt11b1_1'</msg>
+<status status="PASS" endtime="20131228 20:47:00.615" starttime="20131228 20:46:56.215"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Press Key">
 <doc>Simulates user pressing key on element identified by `locator`.</doc>
@@ -1200,14 +1200,14 @@
 <arg>${cell}</arg>
 <arg>\\10</arg>
 </arguments>
-<status status="PASS" endtime="20131228 19:00:47.157" starttime="20131228 19:00:47.107"></status>
+<status status="PASS" endtime="20131228 20:47:00.662" starttime="20131228 20:47:00.615"></status>
 </kw>
-<status status="PASS" endtime="20131228 19:00:47.157" starttime="20131228 19:00:46.672"></status>
+<status status="PASS" endtime="20131228 20:47:00.662" starttime="20131228 20:46:55.752"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20131228 19:00:47.158" critical="yes" starttime="20131228 19:00:45.428"></status>
+<status status="PASS" endtime="20131228 20:47:00.663" critical="yes" starttime="20131228 20:46:42.058"></status>
 </test>
 <test id="s1-t10" name="Submit Exportfile">
 <kw type="kw" name="Selenium2Library.Click Link">
@@ -1215,24 +1215,24 @@
 <arguments>
 <arg>export</arg>
 </arguments>
-<msg timestamp="20131228 19:00:47.163" level="INFO">Clicking link 'export'.</msg>
-<status status="PASS" endtime="20131228 19:00:47.269" starttime="20131228 19:00:47.163"></status>
+<msg timestamp="20131228 20:47:00.666" level="INFO">Clicking link 'export'.</msg>
+<status status="PASS" endtime="20131228 20:47:00.756" starttime="20131228 20:47:00.666"></status>
 </kw>
 <kw type="teardown" name="Selenium2Library.Close Browser">
 <doc>Closes the current browser.</doc>
 <arguments>
 </arguments>
-<status status="PASS" endtime="20131228 19:00:47.418" starttime="20131228 19:00:47.270"></status>
+<status status="PASS" endtime="20131228 20:47:00.840" starttime="20131228 20:47:00.758"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20131228 19:00:47.419" critical="yes" starttime="20131228 19:00:47.161"></status>
+<status status="PASS" endtime="20131228 20:47:00.841" critical="yes" starttime="20131228 20:47:00.664"></status>
 </test>
 <doc>A test suite with a single test for valid login. This test has a workflow that is created using keywords from the resource file.</doc>
 <metadata>
 </metadata>
-<status status="FAIL" endtime="20131228 19:00:47.424" starttime="20131228 19:00:12.056"></status>
+<status status="FAIL" endtime="20131228 20:47:00.845" starttime="20131228 20:45:33.949"></status>
 </suite>
 <statistics>
 <total>

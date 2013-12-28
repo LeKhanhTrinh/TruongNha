@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20131228 18:46:27.121" generator="Robot 2.8.3 (Python 2.7.5 on win32)">
+<robot generated="20131228 21:54:05.232" generator="Robot 2.8.3 (Python 2.7.5 on win32)">
 <suite source="C:\Users\NGUYENCUONG\Desktop\TruongNha\DangNhap\Login.txt" id="s1" name="Login">
 <test id="s1-t1" name="Open Browse">
 <kw type="kw" name="resource.Open login page">
@@ -12,22 +12,22 @@
 <arg>${LOGIN URL}</arg>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg timestamp="20131228 18:46:28.656" level="INFO">Opening browser 'ff' to base url 'http://truongnha.com/login/'</msg>
-<status status="PASS" endtime="20131228 18:46:39.370" starttime="20131228 18:46:28.656"></status>
+<msg timestamp="20131228 21:54:06.841" level="INFO">Opening browser 'ff' to base url 'http://truongnha.com/login/'</msg>
+<status status="PASS" endtime="20131228 21:54:20.646" starttime="20131228 21:54:06.841"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Set Selenium Speed">
 <doc>Sets the delay in seconds that is waited after each Selenium command.</doc>
 <arguments>
 <arg>${DELAY}</arg>
 </arguments>
-<status status="PASS" endtime="20131228 18:46:39.372" starttime="20131228 18:46:39.371"></status>
+<status status="PASS" endtime="20131228 21:54:20.647" starttime="20131228 21:54:20.646"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:39.372" starttime="20131228 18:46:28.655"></status>
+<status status="PASS" endtime="20131228 21:54:20.647" starttime="20131228 21:54:06.840"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20131228 18:46:39.378" critical="yes" starttime="20131228 18:46:28.654"></status>
+<status status="PASS" endtime="20131228 21:54:20.648" critical="yes" starttime="20131228 21:54:06.838"></status>
 </test>
 <test id="s1-t2" name="Invalid Username">
 <kw type="kw" name="resource.Log In Fail">
@@ -47,10 +47,10 @@
 <arg>id_username</arg>
 <arg>${username}</arg>
 </arguments>
-<msg timestamp="20131228 18:46:39.387" level="INFO">Typing text 'invalid' into text field 'id_username'</msg>
-<status status="PASS" endtime="20131228 18:46:39.567" starttime="20131228 18:46:39.387"></status>
+<msg timestamp="20131228 21:54:20.652" level="INFO">Typing text 'invalid' into text field 'id_username'</msg>
+<status status="PASS" endtime="20131228 21:54:20.811" starttime="20131228 21:54:20.652"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:39.568" starttime="20131228 18:46:39.386"></status>
+<status status="PASS" endtime="20131228 21:54:20.811" starttime="20131228 21:54:20.651"></status>
 </kw>
 <kw type="kw" name="resource.Input Password">
 <doc></doc>
@@ -63,10 +63,10 @@
 <arg>id_password</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20131228 18:46:39.569" level="INFO">Typing text 'nhom12' into text field 'id_password'</msg>
-<status status="PASS" endtime="20131228 18:46:39.720" starttime="20131228 18:46:39.569"></status>
+<msg timestamp="20131228 21:54:20.813" level="INFO">Typing text 'nhom12' into text field 'id_password'</msg>
+<status status="PASS" endtime="20131228 21:54:20.927" starttime="20131228 21:54:20.813"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:39.720" starttime="20131228 18:46:39.568"></status>
+<status status="PASS" endtime="20131228 21:54:20.928" starttime="20131228 21:54:20.812"></status>
 </kw>
 <kw type="kw" name="resource.Submit Credentials">
 <doc></doc>
@@ -77,25 +77,25 @@
 <arguments>
 <arg>login</arg>
 </arguments>
-<msg timestamp="20131228 18:46:39.721" level="INFO">Clicking button 'login'.</msg>
-<status status="PASS" endtime="20131228 18:46:39.910" starttime="20131228 18:46:39.721"></status>
+<msg timestamp="20131228 21:54:20.929" level="INFO">Clicking button 'login'.</msg>
+<status status="PASS" endtime="20131228 21:54:21.135" starttime="20131228 21:54:20.929"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:39.910" starttime="20131228 18:46:39.720"></status>
+<status status="PASS" endtime="20131228 21:54:21.135" starttime="20131228 21:54:20.928"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Location Should Be">
 <doc>Verifies that current URL is exactly `url`.</doc>
 <arguments>
 <arg>${LOGIN URL}</arg>
 </arguments>
-<msg timestamp="20131228 18:46:40.931" level="INFO">Current location is 'http://truongnha.com/login/'.</msg>
-<status status="PASS" endtime="20131228 18:46:40.931" starttime="20131228 18:46:39.910"></status>
+<msg timestamp="20131228 21:54:22.496" level="INFO">Current location is 'http://truongnha.com/login/'.</msg>
+<status status="PASS" endtime="20131228 21:54:22.496" starttime="20131228 21:54:21.136"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:40.931" starttime="20131228 18:46:39.385"></status>
+<status status="PASS" endtime="20131228 21:54:22.497" starttime="20131228 21:54:20.650"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20131228 18:46:40.934" critical="yes" starttime="20131228 18:46:39.384"></status>
+<status status="PASS" endtime="20131228 21:54:22.497" critical="yes" starttime="20131228 21:54:20.649"></status>
 </test>
 <test id="s1-t3" name="Invalid Password">
 <kw type="kw" name="resource.Log In Fail">
@@ -115,10 +115,10 @@
 <arg>id_username</arg>
 <arg>${username}</arg>
 </arguments>
-<msg timestamp="20131228 18:46:40.943" level="INFO">Typing text 'trinhlk' into text field 'id_username'</msg>
-<status status="PASS" endtime="20131228 18:46:41.032" starttime="20131228 18:46:40.942"></status>
+<msg timestamp="20131228 21:54:22.502" level="INFO">Typing text 'trinhlk' into text field 'id_username'</msg>
+<status status="PASS" endtime="20131228 21:54:22.648" starttime="20131228 21:54:22.502"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:41.032" starttime="20131228 18:46:40.941"></status>
+<status status="PASS" endtime="20131228 21:54:22.648" starttime="20131228 21:54:22.501"></status>
 </kw>
 <kw type="kw" name="resource.Input Password">
 <doc></doc>
@@ -131,10 +131,10 @@
 <arg>id_password</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20131228 18:46:41.034" level="INFO">Typing text 'invalid' into text field 'id_password'</msg>
-<status status="PASS" endtime="20131228 18:46:41.192" starttime="20131228 18:46:41.033"></status>
+<msg timestamp="20131228 21:54:22.650" level="INFO">Typing text 'invalid' into text field 'id_password'</msg>
+<status status="PASS" endtime="20131228 21:54:22.822" starttime="20131228 21:54:22.650"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:41.193" starttime="20131228 18:46:41.032"></status>
+<status status="PASS" endtime="20131228 21:54:22.822" starttime="20131228 21:54:22.649"></status>
 </kw>
 <kw type="kw" name="resource.Submit Credentials">
 <doc></doc>
@@ -145,25 +145,25 @@
 <arguments>
 <arg>login</arg>
 </arguments>
-<msg timestamp="20131228 18:46:41.194" level="INFO">Clicking button 'login'.</msg>
-<status status="PASS" endtime="20131228 18:46:41.392" starttime="20131228 18:46:41.194"></status>
+<msg timestamp="20131228 21:54:22.824" level="INFO">Clicking button 'login'.</msg>
+<status status="PASS" endtime="20131228 21:54:23.013" starttime="20131228 21:54:22.823"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:41.392" starttime="20131228 18:46:41.193"></status>
+<status status="PASS" endtime="20131228 21:54:23.013" starttime="20131228 21:54:22.822"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Location Should Be">
 <doc>Verifies that current URL is exactly `url`.</doc>
 <arguments>
 <arg>${LOGIN URL}</arg>
 </arguments>
-<msg timestamp="20131228 18:46:42.330" level="INFO">Current location is 'http://truongnha.com/login/'.</msg>
-<status status="PASS" endtime="20131228 18:46:42.330" starttime="20131228 18:46:41.393"></status>
+<msg timestamp="20131228 21:54:23.961" level="INFO">Current location is 'http://truongnha.com/login/'.</msg>
+<status status="PASS" endtime="20131228 21:54:23.961" starttime="20131228 21:54:23.014"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:42.330" starttime="20131228 18:46:40.940"></status>
+<status status="PASS" endtime="20131228 21:54:23.961" starttime="20131228 21:54:22.499"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20131228 18:46:42.333" critical="yes" starttime="20131228 18:46:40.939"></status>
+<status status="PASS" endtime="20131228 21:54:23.962" critical="yes" starttime="20131228 21:54:22.498"></status>
 </test>
 <test id="s1-t4" name="Invalid Username and Password">
 <kw type="kw" name="resource.Log In Fail">
@@ -183,10 +183,10 @@
 <arg>id_username</arg>
 <arg>${username}</arg>
 </arguments>
-<msg timestamp="20131228 18:46:42.342" level="INFO">Typing text 'invalid' into text field 'id_username'</msg>
-<status status="PASS" endtime="20131228 18:46:42.466" starttime="20131228 18:46:42.341"></status>
+<msg timestamp="20131228 21:54:23.968" level="INFO">Typing text 'invalid' into text field 'id_username'</msg>
+<status status="PASS" endtime="20131228 21:54:24.108" starttime="20131228 21:54:23.967"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:42.467" starttime="20131228 18:46:42.340"></status>
+<status status="PASS" endtime="20131228 21:54:24.109" starttime="20131228 21:54:23.966"></status>
 </kw>
 <kw type="kw" name="resource.Input Password">
 <doc></doc>
@@ -199,10 +199,10 @@
 <arg>id_password</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20131228 18:46:42.468" level="INFO">Typing text 'invalid' into text field 'id_password'</msg>
-<status status="PASS" endtime="20131228 18:46:42.596" starttime="20131228 18:46:42.468"></status>
+<msg timestamp="20131228 21:54:24.111" level="INFO">Typing text 'invalid' into text field 'id_password'</msg>
+<status status="PASS" endtime="20131228 21:54:24.244" starttime="20131228 21:54:24.110"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:42.596" starttime="20131228 18:46:42.467"></status>
+<status status="PASS" endtime="20131228 21:54:24.244" starttime="20131228 21:54:24.109"></status>
 </kw>
 <kw type="kw" name="resource.Submit Credentials">
 <doc></doc>
@@ -213,25 +213,25 @@
 <arguments>
 <arg>login</arg>
 </arguments>
-<msg timestamp="20131228 18:46:42.598" level="INFO">Clicking button 'login'.</msg>
-<status status="PASS" endtime="20131228 18:46:42.805" starttime="20131228 18:46:42.598"></status>
+<msg timestamp="20131228 21:54:24.246" level="INFO">Clicking button 'login'.</msg>
+<status status="PASS" endtime="20131228 21:54:24.604" starttime="20131228 21:54:24.246"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:42.805" starttime="20131228 18:46:42.597"></status>
+<status status="PASS" endtime="20131228 21:54:24.605" starttime="20131228 21:54:24.245"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Location Should Be">
 <doc>Verifies that current URL is exactly `url`.</doc>
 <arguments>
 <arg>${LOGIN URL}</arg>
 </arguments>
-<msg timestamp="20131228 18:46:43.788" level="INFO">Current location is 'http://truongnha.com/login/'.</msg>
-<status status="PASS" endtime="20131228 18:46:43.788" starttime="20131228 18:46:42.806"></status>
+<msg timestamp="20131228 21:54:25.560" level="INFO">Current location is 'http://truongnha.com/login/'.</msg>
+<status status="PASS" endtime="20131228 21:54:25.560" starttime="20131228 21:54:24.605"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:43.788" starttime="20131228 18:46:42.339"></status>
+<status status="PASS" endtime="20131228 21:54:25.560" starttime="20131228 21:54:23.965"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20131228 18:46:43.790" critical="yes" starttime="20131228 18:46:42.335"></status>
+<status status="PASS" endtime="20131228 21:54:25.563" critical="yes" starttime="20131228 21:54:23.964"></status>
 </test>
 <test id="s1-t5" name="Empty Username">
 <kw type="kw" name="resource.Log In Fail">
@@ -251,10 +251,10 @@
 <arg>id_username</arg>
 <arg>${username}</arg>
 </arguments>
-<msg timestamp="20131228 18:46:43.803" level="INFO">Typing text '' into text field 'id_username'</msg>
-<status status="PASS" endtime="20131228 18:46:43.866" starttime="20131228 18:46:43.803"></status>
+<msg timestamp="20131228 21:54:25.568" level="INFO">Typing text '' into text field 'id_username'</msg>
+<status status="PASS" endtime="20131228 21:54:25.627" starttime="20131228 21:54:25.567"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:43.866" starttime="20131228 18:46:43.802"></status>
+<status status="PASS" endtime="20131228 21:54:25.627" starttime="20131228 21:54:25.566"></status>
 </kw>
 <kw type="kw" name="resource.Input Password">
 <doc></doc>
@@ -267,10 +267,10 @@
 <arg>id_password</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20131228 18:46:43.868" level="INFO">Typing text 'nhom12' into text field 'id_password'</msg>
-<status status="PASS" endtime="20131228 18:46:43.985" starttime="20131228 18:46:43.868"></status>
+<msg timestamp="20131228 21:54:25.629" level="INFO">Typing text 'nhom12' into text field 'id_password'</msg>
+<status status="PASS" endtime="20131228 21:54:26.113" starttime="20131228 21:54:25.628"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:43.985" starttime="20131228 18:46:43.867"></status>
+<status status="PASS" endtime="20131228 21:54:26.114" starttime="20131228 21:54:25.627"></status>
 </kw>
 <kw type="kw" name="resource.Submit Credentials">
 <doc></doc>
@@ -281,25 +281,25 @@
 <arguments>
 <arg>login</arg>
 </arguments>
-<msg timestamp="20131228 18:46:43.986" level="INFO">Clicking button 'login'.</msg>
-<status status="PASS" endtime="20131228 18:46:44.197" starttime="20131228 18:46:43.986"></status>
+<msg timestamp="20131228 21:54:26.115" level="INFO">Clicking button 'login'.</msg>
+<status status="PASS" endtime="20131228 21:54:26.298" starttime="20131228 21:54:26.115"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:44.197" starttime="20131228 18:46:43.985"></status>
+<status status="PASS" endtime="20131228 21:54:26.298" starttime="20131228 21:54:26.114"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Location Should Be">
 <doc>Verifies that current URL is exactly `url`.</doc>
 <arguments>
 <arg>${LOGIN URL}</arg>
 </arguments>
-<msg timestamp="20131228 18:46:44.985" level="INFO">Current location is 'http://truongnha.com/login/'.</msg>
-<status status="PASS" endtime="20131228 18:46:44.985" starttime="20131228 18:46:44.197"></status>
+<msg timestamp="20131228 21:54:27.616" level="INFO">Current location is 'http://truongnha.com/login/'.</msg>
+<status status="PASS" endtime="20131228 21:54:27.616" starttime="20131228 21:54:26.298"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:44.985" starttime="20131228 18:46:43.800"></status>
+<status status="PASS" endtime="20131228 21:54:27.617" starttime="20131228 21:54:25.565"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20131228 18:46:44.987" critical="yes" starttime="20131228 18:46:43.799"></status>
+<status status="PASS" endtime="20131228 21:54:27.617" critical="yes" starttime="20131228 21:54:25.564"></status>
 </test>
 <test id="s1-t6" name="Empty Password">
 <kw type="kw" name="resource.Log In Fail">
@@ -319,10 +319,10 @@
 <arg>id_username</arg>
 <arg>${username}</arg>
 </arguments>
-<msg timestamp="20131228 18:46:44.994" level="INFO">Typing text 'trinhlk' into text field 'id_username'</msg>
-<status status="PASS" endtime="20131228 18:46:45.896" starttime="20131228 18:46:44.993"></status>
+<msg timestamp="20131228 21:54:27.622" level="INFO">Typing text 'trinhlk' into text field 'id_username'</msg>
+<status status="PASS" endtime="20131228 21:54:27.790" starttime="20131228 21:54:27.622"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:45.896" starttime="20131228 18:46:44.992"></status>
+<status status="PASS" endtime="20131228 21:54:27.790" starttime="20131228 21:54:27.621"></status>
 </kw>
 <kw type="kw" name="resource.Input Password">
 <doc></doc>
@@ -335,10 +335,10 @@
 <arg>id_password</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20131228 18:46:45.898" level="INFO">Typing text '' into text field 'id_password'</msg>
-<status status="PASS" endtime="20131228 18:46:45.979" starttime="20131228 18:46:45.897"></status>
+<msg timestamp="20131228 21:54:27.792" level="INFO">Typing text '' into text field 'id_password'</msg>
+<status status="PASS" endtime="20131228 21:54:27.867" starttime="20131228 21:54:27.791"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:45.979" starttime="20131228 18:46:45.896"></status>
+<status status="PASS" endtime="20131228 21:54:27.867" starttime="20131228 21:54:27.790"></status>
 </kw>
 <kw type="kw" name="resource.Submit Credentials">
 <doc></doc>
@@ -349,25 +349,25 @@
 <arguments>
 <arg>login</arg>
 </arguments>
-<msg timestamp="20131228 18:46:45.980" level="INFO">Clicking button 'login'.</msg>
-<status status="PASS" endtime="20131228 18:46:46.215" starttime="20131228 18:46:45.980"></status>
+<msg timestamp="20131228 21:54:27.869" level="INFO">Clicking button 'login'.</msg>
+<status status="PASS" endtime="20131228 21:54:28.125" starttime="20131228 21:54:27.869"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:46.216" starttime="20131228 18:46:45.979"></status>
+<status status="PASS" endtime="20131228 21:54:28.125" starttime="20131228 21:54:27.868"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Location Should Be">
 <doc>Verifies that current URL is exactly `url`.</doc>
 <arguments>
 <arg>${LOGIN URL}</arg>
 </arguments>
-<msg timestamp="20131228 18:46:47.026" level="INFO">Current location is 'http://truongnha.com/login/'.</msg>
-<status status="PASS" endtime="20131228 18:46:47.026" starttime="20131228 18:46:46.216"></status>
+<msg timestamp="20131228 21:54:29.566" level="INFO">Current location is 'http://truongnha.com/login/'.</msg>
+<status status="PASS" endtime="20131228 21:54:29.566" starttime="20131228 21:54:28.125"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:47.026" starttime="20131228 18:46:44.991"></status>
+<status status="PASS" endtime="20131228 21:54:29.567" starttime="20131228 21:54:27.620"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20131228 18:46:47.027" critical="yes" starttime="20131228 18:46:44.990"></status>
+<status status="PASS" endtime="20131228 21:54:29.568" critical="yes" starttime="20131228 21:54:27.619"></status>
 </test>
 <test id="s1-t7" name="Empty Username and Password">
 <kw type="kw" name="resource.Log In Fail">
@@ -387,10 +387,10 @@
 <arg>id_username</arg>
 <arg>${username}</arg>
 </arguments>
-<msg timestamp="20131228 18:46:47.041" level="INFO">Typing text '' into text field 'id_username'</msg>
-<status status="PASS" endtime="20131228 18:46:47.104" starttime="20131228 18:46:47.040"></status>
+<msg timestamp="20131228 21:54:29.582" level="INFO">Typing text '' into text field 'id_username'</msg>
+<status status="PASS" endtime="20131228 21:54:29.746" starttime="20131228 21:54:29.582"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:47.104" starttime="20131228 18:46:47.039"></status>
+<status status="PASS" endtime="20131228 21:54:29.746" starttime="20131228 21:54:29.581"></status>
 </kw>
 <kw type="kw" name="resource.Input Password">
 <doc></doc>
@@ -403,10 +403,10 @@
 <arg>id_password</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20131228 18:46:47.106" level="INFO">Typing text '' into text field 'id_password'</msg>
-<status status="PASS" endtime="20131228 18:46:47.191" starttime="20131228 18:46:47.105"></status>
+<msg timestamp="20131228 21:54:29.748" level="INFO">Typing text '' into text field 'id_password'</msg>
+<status status="PASS" endtime="20131228 21:54:29.824" starttime="20131228 21:54:29.747"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:47.191" starttime="20131228 18:46:47.104"></status>
+<status status="PASS" endtime="20131228 21:54:29.825" starttime="20131228 21:54:29.746"></status>
 </kw>
 <kw type="kw" name="resource.Submit Credentials">
 <doc></doc>
@@ -417,25 +417,25 @@
 <arguments>
 <arg>login</arg>
 </arguments>
-<msg timestamp="20131228 18:46:47.192" level="INFO">Clicking button 'login'.</msg>
-<status status="PASS" endtime="20131228 18:46:47.408" starttime="20131228 18:46:47.192"></status>
+<msg timestamp="20131228 21:54:29.826" level="INFO">Clicking button 'login'.</msg>
+<status status="PASS" endtime="20131228 21:54:30.054" starttime="20131228 21:54:29.826"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:47.408" starttime="20131228 18:46:47.191"></status>
+<status status="PASS" endtime="20131228 21:54:30.054" starttime="20131228 21:54:29.825"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Location Should Be">
 <doc>Verifies that current URL is exactly `url`.</doc>
 <arguments>
 <arg>${LOGIN URL}</arg>
 </arguments>
-<msg timestamp="20131228 18:46:48.262" level="INFO">Current location is 'http://truongnha.com/login/'.</msg>
-<status status="PASS" endtime="20131228 18:46:48.262" starttime="20131228 18:46:47.408"></status>
+<msg timestamp="20131228 21:54:30.931" level="INFO">Current location is 'http://truongnha.com/login/'.</msg>
+<status status="PASS" endtime="20131228 21:54:30.931" starttime="20131228 21:54:30.054"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:48.262" starttime="20131228 18:46:47.038"></status>
+<status status="PASS" endtime="20131228 21:54:30.932" starttime="20131228 21:54:29.580"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20131228 18:46:48.264" critical="yes" starttime="20131228 18:46:47.030"></status>
+<status status="PASS" endtime="20131228 21:54:30.932" critical="yes" starttime="20131228 21:54:29.570"></status>
 </test>
 <test id="s1-t8" name="Empty Usr and invalid pass">
 <kw type="kw" name="resource.Log In Fail">
@@ -455,10 +455,10 @@
 <arg>id_username</arg>
 <arg>${username}</arg>
 </arguments>
-<msg timestamp="20131228 18:46:48.271" level="INFO">Typing text '' into text field 'id_username'</msg>
-<status status="PASS" endtime="20131228 18:46:48.325" starttime="20131228 18:46:48.270"></status>
+<msg timestamp="20131228 21:54:30.937" level="INFO">Typing text '' into text field 'id_username'</msg>
+<status status="PASS" endtime="20131228 21:54:30.988" starttime="20131228 21:54:30.937"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:48.326" starttime="20131228 18:46:48.269"></status>
+<status status="PASS" endtime="20131228 21:54:30.988" starttime="20131228 21:54:30.936"></status>
 </kw>
 <kw type="kw" name="resource.Input Password">
 <doc></doc>
@@ -471,10 +471,10 @@
 <arg>id_password</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20131228 18:46:48.327" level="INFO">Typing text 'invalid' into text field 'id_password'</msg>
-<status status="PASS" endtime="20131228 18:46:48.522" starttime="20131228 18:46:48.327"></status>
+<msg timestamp="20131228 21:54:30.990" level="INFO">Typing text 'invalid' into text field 'id_password'</msg>
+<status status="PASS" endtime="20131228 21:54:31.088" starttime="20131228 21:54:30.990"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:48.522" starttime="20131228 18:46:48.326"></status>
+<status status="PASS" endtime="20131228 21:54:31.089" starttime="20131228 21:54:30.988"></status>
 </kw>
 <kw type="kw" name="resource.Submit Credentials">
 <doc></doc>
@@ -485,25 +485,25 @@
 <arguments>
 <arg>login</arg>
 </arguments>
-<msg timestamp="20131228 18:46:48.524" level="INFO">Clicking button 'login'.</msg>
-<status status="PASS" endtime="20131228 18:46:48.723" starttime="20131228 18:46:48.523"></status>
+<msg timestamp="20131228 21:54:31.090" level="INFO">Clicking button 'login'.</msg>
+<status status="PASS" endtime="20131228 21:54:31.270" starttime="20131228 21:54:31.090"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:48.723" starttime="20131228 18:46:48.522"></status>
+<status status="PASS" endtime="20131228 21:54:31.270" starttime="20131228 21:54:31.089"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Location Should Be">
 <doc>Verifies that current URL is exactly `url`.</doc>
 <arguments>
 <arg>${LOGIN URL}</arg>
 </arguments>
-<msg timestamp="20131228 18:46:49.622" level="INFO">Current location is 'http://truongnha.com/login/'.</msg>
-<status status="PASS" endtime="20131228 18:46:49.622" starttime="20131228 18:46:48.724"></status>
+<msg timestamp="20131228 21:54:32.079" level="INFO">Current location is 'http://truongnha.com/login/'.</msg>
+<status status="PASS" endtime="20131228 21:54:32.080" starttime="20131228 21:54:31.270"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:49.622" starttime="20131228 18:46:48.268"></status>
+<status status="PASS" endtime="20131228 21:54:32.080" starttime="20131228 21:54:30.935"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20131228 18:46:49.629" critical="yes" starttime="20131228 18:46:48.267"></status>
+<status status="PASS" endtime="20131228 21:54:32.080" critical="yes" starttime="20131228 21:54:30.934"></status>
 </test>
 <test id="s1-t9" name="Invalid Usr and Empty pass">
 <kw type="kw" name="resource.Log In Fail">
@@ -523,10 +523,10 @@
 <arg>id_username</arg>
 <arg>${username}</arg>
 </arguments>
-<msg timestamp="20131228 18:46:49.636" level="INFO">Typing text 'invalid' into text field 'id_username'</msg>
-<status status="PASS" endtime="20131228 18:46:49.737" starttime="20131228 18:46:49.636"></status>
+<msg timestamp="20131228 21:54:32.085" level="INFO">Typing text 'invalid' into text field 'id_username'</msg>
+<status status="PASS" endtime="20131228 21:54:32.202" starttime="20131228 21:54:32.085"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:49.737" starttime="20131228 18:46:49.635"></status>
+<status status="PASS" endtime="20131228 21:54:32.202" starttime="20131228 21:54:32.084"></status>
 </kw>
 <kw type="kw" name="resource.Input Password">
 <doc></doc>
@@ -539,10 +539,10 @@
 <arg>id_password</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20131228 18:46:49.739" level="INFO">Typing text '' into text field 'id_password'</msg>
-<status status="PASS" endtime="20131228 18:46:49.821" starttime="20131228 18:46:49.739"></status>
+<msg timestamp="20131228 21:54:32.204" level="INFO">Typing text '' into text field 'id_password'</msg>
+<status status="PASS" endtime="20131228 21:54:32.258" starttime="20131228 21:54:32.203"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:49.821" starttime="20131228 18:46:49.738"></status>
+<status status="PASS" endtime="20131228 21:54:32.259" starttime="20131228 21:54:32.202"></status>
 </kw>
 <kw type="kw" name="resource.Submit Credentials">
 <doc></doc>
@@ -553,25 +553,25 @@
 <arguments>
 <arg>login</arg>
 </arguments>
-<msg timestamp="20131228 18:46:49.830" level="INFO">Clicking button 'login'.</msg>
-<status status="PASS" endtime="20131228 18:46:50.070" starttime="20131228 18:46:49.830"></status>
+<msg timestamp="20131228 21:54:32.260" level="INFO">Clicking button 'login'.</msg>
+<status status="PASS" endtime="20131228 21:54:32.435" starttime="20131228 21:54:32.260"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:50.070" starttime="20131228 18:46:49.821"></status>
+<status status="PASS" endtime="20131228 21:54:32.435" starttime="20131228 21:54:32.259"></status>
 </kw>
 <kw type="kw" name="Selenium2Library.Location Should Be">
 <doc>Verifies that current URL is exactly `url`.</doc>
 <arguments>
 <arg>${LOGIN URL}</arg>
 </arguments>
-<msg timestamp="20131228 18:46:50.911" level="INFO">Current location is 'http://truongnha.com/login/'.</msg>
-<status status="PASS" endtime="20131228 18:46:50.911" starttime="20131228 18:46:50.071"></status>
+<msg timestamp="20131228 21:54:33.917" level="INFO">Current location is 'http://truongnha.com/login/'.</msg>
+<status status="PASS" endtime="20131228 21:54:33.917" starttime="20131228 21:54:32.435"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:50.911" starttime="20131228 18:46:49.634"></status>
+<status status="PASS" endtime="20131228 21:54:33.917" starttime="20131228 21:54:32.083"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20131228 18:46:50.913" critical="yes" starttime="20131228 18:46:49.633"></status>
+<status status="PASS" endtime="20131228 21:54:33.918" critical="yes" starttime="20131228 21:54:32.082"></status>
 </test>
 <test id="s1-t10" name="Log in">
 <kw type="kw" name="resource.Input Username">
@@ -585,10 +585,10 @@
 <arg>id_username</arg>
 <arg>${username}</arg>
 </arguments>
-<msg timestamp="20131228 18:46:50.919" level="INFO">Typing text 'trinhlk' into text field 'id_username'</msg>
-<status status="PASS" endtime="20131228 18:46:51.019" starttime="20131228 18:46:50.918"></status>
+<msg timestamp="20131228 21:54:33.921" level="INFO">Typing text 'trinhlk' into text field 'id_username'</msg>
+<status status="PASS" endtime="20131228 21:54:34.055" starttime="20131228 21:54:33.921"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:51.020" starttime="20131228 18:46:50.917"></status>
+<status status="PASS" endtime="20131228 21:54:34.055" starttime="20131228 21:54:33.920"></status>
 </kw>
 <kw type="kw" name="resource.Input Password">
 <doc></doc>
@@ -601,10 +601,10 @@
 <arg>id_password</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20131228 18:46:51.022" level="INFO">Typing text 'nhom12' into text field 'id_password'</msg>
-<status status="PASS" endtime="20131228 18:46:51.145" starttime="20131228 18:46:51.021"></status>
+<msg timestamp="20131228 21:54:34.057" level="INFO">Typing text 'nhom12' into text field 'id_password'</msg>
+<status status="PASS" endtime="20131228 21:54:34.143" starttime="20131228 21:54:34.057"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:51.145" starttime="20131228 18:46:51.020"></status>
+<status status="PASS" endtime="20131228 21:54:34.143" starttime="20131228 21:54:34.056"></status>
 </kw>
 <kw type="kw" name="resource.Submit Credentials">
 <doc></doc>
@@ -615,10 +615,10 @@
 <arguments>
 <arg>login</arg>
 </arguments>
-<msg timestamp="20131228 18:46:51.147" level="INFO">Clicking button 'login'.</msg>
-<status status="PASS" endtime="20131228 18:46:51.358" starttime="20131228 18:46:51.147"></status>
+<msg timestamp="20131228 21:54:34.145" level="INFO">Clicking button 'login'.</msg>
+<status status="PASS" endtime="20131228 21:54:34.319" starttime="20131228 21:54:34.145"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:51.358" starttime="20131228 18:46:51.146"></status>
+<status status="PASS" endtime="20131228 21:54:34.320" starttime="20131228 21:54:34.144"></status>
 </kw>
 <kw type="kw" name="resource.Display Welcome Page">
 <doc></doc>
@@ -629,36 +629,36 @@
 <arguments>
 <arg>${WELCOME URL}</arg>
 </arguments>
-<msg timestamp="20131228 18:46:53.037" level="INFO">Current location is 'http://truongnha.com/school/'.</msg>
-<status status="PASS" endtime="20131228 18:46:53.037" starttime="20131228 18:46:51.360"></status>
+<msg timestamp="20131228 21:54:38.894" level="INFO">Current location is 'http://truongnha.com/school/'.</msg>
+<status status="PASS" endtime="20131228 21:54:38.895" starttime="20131228 21:54:34.321"></status>
 </kw>
-<status status="PASS" endtime="20131228 18:46:53.038" starttime="20131228 18:46:51.359"></status>
+<status status="PASS" endtime="20131228 21:54:38.895" starttime="20131228 21:54:34.320"></status>
+</kw>
+<kw type="teardown" name="Selenium2Library.Close Browser">
+<doc>Closes the current browser.</doc>
+<arguments>
+</arguments>
+<status status="PASS" endtime="20131228 21:54:38.975" starttime="20131228 21:54:38.896"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20131228 18:46:53.039" critical="yes" starttime="20131228 18:46:50.916"></status>
-</test>
-<test id="s1-t11" name="Close BR">
-<doc></doc>
-<tags>
-</tags>
-<status status="FAIL" endtime="20131228 18:46:53.042" critical="yes" starttime="20131228 18:46:53.041">Test case contains no keywords.</status>
+<status status="PASS" endtime="20131228 21:54:38.976" critical="yes" starttime="20131228 21:54:33.919"></status>
 </test>
 <doc>A test suite with a single test for valid login. This test has a workflow that is created using keywords from the resource file.</doc>
 <metadata>
 </metadata>
-<status status="FAIL" endtime="20131228 18:46:53.046" starttime="20131228 18:46:27.122"></status>
+<status status="PASS" endtime="20131228 21:54:38.980" starttime="20131228 21:54:05.233"></status>
 </suite>
 <statistics>
 <total>
-<stat fail="1" pass="10">Critical Tests</stat>
-<stat fail="1" pass="10">All Tests</stat>
+<stat fail="0" pass="10">Critical Tests</stat>
+<stat fail="0" pass="10">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat fail="1" pass="10" id="s1" name="Login">Login</stat>
+<stat fail="0" pass="10" id="s1" name="Login">Login</stat>
 </suite>
 </statistics>
 <errors>
