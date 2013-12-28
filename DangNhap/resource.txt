@@ -1,0 +1,48 @@
+*** Settings ***
+
+Documentation  A resource file containing the demo app specific keywords and variables that create our own domain specific language. Also SeleniumLibrary itself is imported here so that tests only need to import this resource file.
+
+Library        Selenium2Library
+
+
+*** Variables ***
+
+${BROWSER}       ff
+${DELAY}         0
+${HOST}          truongnha.com
+${LOGIN URL}     http://${HOST}/login/
+${WELCOME URL}   http://${HOST}/school/
+${VALID USER}    trinhlk
+${VALID PASSWD}  nhom12
+
+*** Keywords ***	
+
+		
+Display Welcome Page
+    Location Should Be  ${WELCOME URL}
+	
+Open login page
+    Open Browser  ${LOGIN URL}  ${BROWSER}
+    Set Selenium Speed  ${DELAY}    
+	
+Input Username  [Arguments]  ${username}
+    Input Text  id_username  ${username}
+
+Input Password  [Arguments]  ${password}
+    Input Text  id_password  ${password}
+	
+Go To Login Page
+    Go To  ${LOGIN URL}    
+
+Go to Welcome Page
+    Go To  ${WELCOME URL}    
+
+Log In Fail  [Arguments]	${usr}  ${pass}
+	Input Username	${usr}
+	Input Password	${pass}
+	Submit Credentials
+	Location Should Be  ${LOGIN URL} 
+	
+Submit Credentials
+    Click Button  login
+	

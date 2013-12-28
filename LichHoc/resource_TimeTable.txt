@@ -25,9 +25,6 @@ Assign Cell Id  [Arguments]  ${tr}  ${td}  ${r_id}
 Assign Class Id  [Arguments]  ${c_id}
 	Assign Id To Element  xpath=//select[@name="class"]  ${c_id}
 
-Click submit
-	Click Button  submitaddTeacher
-		
 Display Welcome Page
     Location Should Be  ${WELCOME URL}
 

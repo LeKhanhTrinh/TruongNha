@@ -12,7 +12,7 @@ ${DELAY}		 0
 ${HOST}          truongnha.com
 ${LOGIN URL}     http://${HOST}/login/
 ${WELCOME URL}   http://${HOST}/school/
-${TEACHER URL}   http://${HOST}/school/teachers
+${DETAIL URL}	 http://${HOST}/school/viewClassDetail
 ${LOPHOC URL} 	 http://${HOST}/school/viewClassDetail/1490
 ${HK URL}		 http://${HOST}/school/hanhkiem
 ${HANHKIEM URL}	 http://${HOST}/school/hanhkiem/1490
@@ -23,7 +23,26 @@ ${VALID PASSWD}  nhom12
 *** Keywords ***	
 Assign Cell Id  [Arguments]  ${tr}  ${td}  ${r_id}
 	Assign Id To Element  xpath=//tr[@class="${tr}"]/td[@class="${td}"]/input[@class="hk"]  ${r_id}
+	
+Click Teacher Page
+	Click Link  teachers
 
+Click Import Hanhkiem  
+	Click Link  import 
+	Click Element   xpath=//input[@name="files[]"]
+	Choose File   import   "C:\Users\DuyHien\Desktop\hanh_kiem.xls"
+	Click Button  xpath=//button[@class="btn btn-primary"]
+	Click Link  upload-modal-exit
+	
+Display WelcomPage
+    Location Should Be  ${WELCOME URL}
+	
+Display Hanh Kiem Page  [Arguments]  ${id}
+	Location Should Be  ${HK URL}/${id}
+	
+Display Detail Page  [Arguments]  ${id}
+	Location Should Be  ${DETAIL URL}/${id}	
+	
 Open login page
     Open Browser  ${LOGIN URL}  ${BROWSER}
     Set Selenium Speed  ${DELAY}    
@@ -39,6 +58,12 @@ Go To Class Selected  [Arguments]  ${cls}
 	Go To Class  ${cls}
 	Display Hanh Kiem Page  ${cls}
 	
+Go to Welcome Page
+    Go To  ${WELCOME URL}    	
+
+Go To Class Page  [Arguments]	${id}
+	Click Link  ${id}
+	
 Input Username  [Arguments]  ${username}
     Input Text  id_username  ${username}
 
@@ -50,12 +75,6 @@ Input Cell X Value Y  [Arguments]		${cell}		${input}
 	Input Text		${cell}	${input}
 	Press Key	${cell}	\\10
 	
-Input To Cell Value X And It Should Display Value Y
-	[Arguments]		${cell}		${input}
-	Click Element	${cell}
-	Input Text		${cell}	${input}
-	Press Key	${cell}	\\10	
-
 Set Id X Value Y  [Arguments]		${cell}		${input}
 	Click Element	${cell}
 	Select From List By Value		${cell}	${input}
@@ -63,77 +82,13 @@ Set Id X Value Y  [Arguments]		${cell}		${input}
 	
 Submit Credentials
     Click Button  login
-
-Display WelcomPage
-    Location Should Be  ${WELCOME URL}
-	
-Go to Welcome Page
-    Go To  ${WELCOME URL}    
-
-Go to Teacher page
-	Go To  ${TEACHER URL}
-
-Go to LOPHOC
-	Go To  ${LOPHOC URL}
-	
-Go to HanhKiem10A
-	Go To  ${HANHKIEM URL}
-	
-Go to HanhKiem10B
-	Go To  ${HANHKIEM10B URL}
-	
-Click Teacher Page
-	Click Link  teachers
-
-Go To Class Page
-	Click Link  1490
 	
 Submit HanhKiem
 	Click Link  btn-hanhkiem
-Click Teacher List
-	Click Link  teacher-list-menu
-	
-Click Insert Teacher
-	Click Link  add-teacher
-	
 
-Click Import Hanhkiem  
-	Click Link  import 
-	Click Element   xpath=//input[@name="files[]"]
-	Choose File   import   "C:\Users\DuyHien\Desktop\hanh_kiem.xls"
-	Click Button  xpath=//button[@class="btn btn-primary"]
-	Click Link  upload-modal-exit
-	
 Submit Export
 	Click Link  export
 
-Insert Name
-	Input Text  id_first_name ${name}
 	
-Insert DOB
-	Input Text  id_birthday ${birthday}
-	
-Insert Number
-	Input Text  id_sms_phone ${phone}
-	
-Select gender
-	Select From List  xpath=//select[@id="id_sex"] ${sex}
-	
-Select major
-	Select From List  xpath=//select[@id="id_major"] ${major}
-	
-Select Depart
-	Select From List  xpath=//select[@id="id_team_id"] ${team}
-	
-Select Group
-	Click Element  xpath=//select[@id="id_class"]/option[@value=1491]
-	List Selection Should Be  xpath=//select[@id="id_class"]	10 B	
-		
-Click submit
-	Click Button  submitaddTeacher
-	
-Display Hanh Kiem Page  [Arguments]  ${id}
-	Location Should Be  ${HK URL}/${id}
-	
-Display the Teachers Page
-    Location Should Be  ${TEACHER URL}    
+
+	  
