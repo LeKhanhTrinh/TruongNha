@@ -15,74 +15,59 @@ Display teachers Page
 	Go to Welcome Page
 	Go to Class Page 
 	Submit HanhKiem
-Hanh Kiem T1	
-	Assign Id To Element  xpath=//tr[@class="27800"]/td[@class="hk1"]/input[@class="hk"]  hk11
-	Input To Cell Value X And It Should Display Value Y		hk11	U
-	Textfield Value Should Be   hk11   \
-	Assign Id To Element  xpath=//tr[@class="27800"]/td[@class="col1 hk-thang"]/input[@class="hk"]  hkt91
-	Input To Cell Value X And It Should Display Value Y		hkt91	T
-	Assign Id To Element  xpath=//tr[@class="27800"]/td[@class="col9 hk-thang"]/input[@class="hk"]  hkt51
-	Input To Cell Value X And It Should Display Value Y		hkt51	B 
-Hanh Kiem T2
-	Assign Id To Element  xpath=//tr[@class="27801"]/td[@class="hk1"]/input[@class="hk"]  hk12
-	Input To Cell Value X And It Should Display Value Y		hk12	T
-	Assign Id To Element  xpath=//tr[@class="27801"]/td[@class="col1 hk-thang"]/input[@class="hk"]  hkt92
-	Input To Cell Value X And It Should Display Value Y		hkt92		K
-	Assign Id To Element  xpath=//tr[@class="27801"]/td[@class="col9 hk-thang"]/input[@class="hk"]  hkt52
-	Input To Cell Value X And It Should Display Value Y		hkt52		Y
-Hanh Kiem T3
-	Assign Id To Element  xpath=//tr[@class="27929"]/td[@class="hk1"]/input[@class="hk"]  hk13
-	Input To Cell Value X And It Should Display Value Y		hk13	K
-	Assign Id To Element  xpath=//tr[@class="27929"]/td[@class="col1 hk-thang"]/input[@class="hk"]  hkt93
-	Input To Cell Value X And It Should Display Value Y		hkt93		T
-	Assign Id To Element  xpath=//tr[@class="27929"]/td[@class="col9 hk-thang"]/input[@class="hk"]  hkt53
-	Input To Cell Value X And It Should Display Value Y		hkt53		B
 	
-	Select Group
+Hanh Kiem T1	
+	Assign Cell Id  27800  hk1  hk11
+	Input Cell X Value Y		hk11	T
+	Assign Cell Id  27800  col1 hk-thang  hk111
+	Input Cell X Value Y		hk111	B
+	Assign Cell Id  27800  col5 hk-thang  hk113
+	Input Cell X Value Y		hk113	Y
+	Assign Cell Id  27800  col9 hk-thang  hk112
+	Input Cell X Value Y		hk112	K
 
+Hanh Kiem T2
+	Assign Cell Id  27801  hk1  hk12
+	Input Cell X Value Y		hk12	T
+	Assign Cell Id  27801  col1 hk-thang  hkt92
+	Input Cell X Value Y		hkt92	K
+	Assign Cell Id  27801  col9 hk-thang  hkt52
+	Input Cell X Value Y		hkt52   B
+	Assign Cell Id  27801  col5 hk-thang  hkt53
+	Input Cell X Value Y		hkt53   Y
+	
+Hanh Kiem T3
+	Assign Cell Id  27929  col5 hk-thang  hk113
+	Input Cell X Value Y		hk113	T
+	Assign Cell Id  27929  hk1  hk13
+	Input Cell X Value Y		hk13	Y
+	Assign Cell Id  27929  col1 hk-thang  hkt93
+	Input Cell X Value Y		hkt93	K
+	Assign Cell Id  27929  col9 hk-thang  hkt53
+	Input Cell X Value Y		hkt53   B
+	
+Switching Class 10B
+	Go To Class Selected  1491
+	
 Hanh Kiem T4
-	Assign Id To Element  xpath=//tr[@class="27938"]/td[@class="hk1"]/input[@class="hk"]  hk1b1
-	Input To Cell Value X And It Should Display Value Y		hk1b1	K  
-	Assign Id To Element  xpath=//tr[@class="27938"]/td[@class="col1 hk-thang"]/input[@class="hk"]  hkt9b1
-	Input To Cell Value X And It Should Display Value Y		hkt9b1	B  
-	Assign Id To Element  xpath=//tr[@class="27938"]/td[@class="col2 hk-thang"]/input[@class="hk"]  hkt10b1
-	Input To Cell Value X And It Should Display Value Y		hkt10b1	Y
-	Assign Id To Element  xpath=//tr[@class="27938"]/td[@class="col3 hk-thang"]/input[@class="hk"]  hkt11b1
-	Input To Cell Value X And It Should Display Value Y		hkt11b1	K
-	Assign Id To Element  xpath=//tr[@class="27938"]/td[@class="col4 hk-thang"]/input[@class="hk"]  hkt12b1
-	Input To Cell Value X And It Should Display Value Y		hkt12b1	T
-	Assign Id To Element  xpath=//tr[@class="27938"]/td[@class="col5 hk-thang"]/input[@class="hk"]  hkt1b1
-	Input To Cell Value X And It Should Display Value Y		hkt1b1	K
-	Assign Id To Element  xpath=//tr[@class="27938"]/td[@class="col6 hk-thang"]/input[@class="hk"]  hkt2b1
-	Input To Cell Value X And It Should Display Value Y		hkt2b1	T
-	Assign Id To Element  xpath=//tr[@class="27938"]/td[@class="col7 hk-thang"]/input[@class="hk"]  hkt3b1
-	Input To Cell Value X And It Should Display Value Y		hkt3b1	T
-	Assign Id To Element  xpath=//tr[@class="27938"]/td[@class="col8 hk-thang"]/input[@class="hk"]  hkt4b1
-	Input To Cell Value X And It Should Display Value Y		hkt4b1	K
-	Assign Id To Element  xpath=//tr[@class="27938"]/td[@class="col9 hk-thang"]/input[@class="hk"]  hkt5b1
-	Input To Cell Value X And It Should Display Value Y	hkt5b1	K 
+	Assign Cell Id  27938  col5 hk-thang  hk1b1
+	Input Cell X Value Y		hk1b1	T
+	Assign Cell Id  27938  hk1  hkt9b1
+	Input Cell X Value Y		hkt9b1	Y
+	Assign Cell Id  27938  col1 hk-thang  hkt10b1
+	Input Cell X Value Y		hkt10b1	K
+	Assign Cell Id  27938  col9 hk-thang  hkt11b1
+	Input Cell X Value Y		hkt11b1   B
 
 Hanh Kiem T5
-	Assign Id To Element  xpath=//tr[@class="27939"]/td[@class="hk1"]/input[@class="hk"]  hk1b1_1
-	Input To Cell Value X And It Should Display Value Y		hk1b1_1	K  
-	Assign Id To Element  xpath=//tr[@class="27939"]/td[@class="col1 hk-thang"]/input[@class="hk"]  hkt9b1_1
-	Input To Cell Value X And It Should Display Value Y		hkt9b1_1	B  
-	Assign Id To Element  xpath=//tr[@class="27939"]/td[@class="col2 hk-thang"]/input[@class="hk"]  hkt10b1_1
-	Input To Cell Value X And It Should Display Value Y		hkt10b1_1	Y
-	Assign Id To Element  xpath=//tr[@class="27939"]/td[@class="col3 hk-thang"]/input[@class="hk"]  hkt11b1_1
-	Input To Cell Value X And It Should Display Value Y		hkt11b1_1	K
-	Assign Id To Element  xpath=//tr[@class="27939"]/td[@class="col4 hk-thang"]/input[@class="hk"]  hkt12b1_1
-	Input To Cell Value X And It Should Display Value Y		hkt12b1_1	T
-	Assign Id To Element  xpath=//tr[@class="27939"]/td[@class="col5 hk-thang"]/input[@class="hk"]  hkt1b1_1
-	Input To Cell Value X And It Should Display Value Y		hkt1b1_1	K
-	Assign Id To Element  xpath=//tr[@class="27939"]/td[@class="col6 hk-thang"]/input[@class="hk"]  hkt2b1_1
-	Input To Cell Value X And It Should Display Value Y		hkt2b1_1	T
-	Assign Id To Element  xpath=//tr[@class="27939"]/td[@class="col7 hk-thang"]/input[@class="hk"]  hkt3b1_1
-	Input To Cell Value X And It Should Display Value Y		hkt3b1_1	T
-	Assign Id To Element  xpath=//tr[@class="27939"]/td[@class="col8 hk-thang"]/input[@class="hk"]  hkt4b1_1
-	Input To Cell Value X And It Should Display Value Y		hkt4b1_1	K
-	Assign Id To Element  xpath=//tr[@class="27939"]/td[@class="col9 hk-thang"]/input[@class="hk"]  hkt5b1_1
-	Input To Cell Value X And It Should Display Value Y	hkt5b1_1	K
+	Assign Cell Id  27938  col5 hk-thang  hk1b1_1
+	Input Cell X Value Y		hk1b1_1	T
+	Assign Cell Id  27938  hk1  hkt9b1_1
+	Input Cell X Value Y		hkt9b1_1	Y
+	Assign Cell Id  27938  col1 hk-thang  hkt10b1_1
+	Input Cell X Value Y		hkt10b1_1	K
+	Assign Cell Id  27938  col9 hk-thang  hkt11b1_1
+	Input Cell X Value Y		hkt11b1_1   B
 
 Submit Exportfile
 	Click Link  export
