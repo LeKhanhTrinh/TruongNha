@@ -1,0 +1,169 @@
+﻿*** Settings ***
+Documentation  A test suite with a single test for valid login. This test has a workflow that is created using keywords from the resource file.
+
+Resource       resource_TimeTable.txt
+
+
+*** Test Cases ***
+
+Open Browse
+	Open login page
+	
+Log in
+	Input Username	${VALID USER}
+	Input Password	${VALID PASSWD}
+	Submit Credentials
+    Display Welcome Page
+	
+Go To Time Table
+	Go To Class Page  1490
+	Display Detail Page  1490
+	Submit TimeTable
+	Display TimeTB Page  1490
+
+Insert TimeTable 10A r1
+	Assign Cell Id  1  2  lh12
+	Set Id X Value Y		lh12	-1
+	Assign Cell Id  1  3  lh13
+	Set Id X Value Y		lh13	21025
+	Assign Cell Id  1  4  lh14
+	Set Id X Value Y		lh14	21026
+	Assign Cell Id  1  5  lh15
+	Set Id X Value Y		lh15	21027
+	Assign Cell Id  1  6  lh16
+	Set Id X Value Y		lh16	21028
+	Assign Cell Id  1  7  lh17
+	Set Id X Value Y		lh17	21029
+
+Insert TimeTable 10A r5
+	Assign Cell Id  5  2  lh22
+	Set Id X Value Y		lh22	21030
+	Assign Cell Id  5  3  lh23
+	Set Id X Value Y		lh23	21031
+	Assign Cell Id  5  4  lh24
+	Set Id X Value Y		lh24	21032
+	Assign Cell Id  5  5  lh25
+	Set Id X Value Y		lh25	21033
+	Assign Cell Id  5  6  lh26
+	Set Id X Value Y		lh26	21034
+	Assign Cell Id  5  7  lh27
+	Set Id X Value Y		lh27	21035
+	
+Insert TimeTable 10A r10
+	Assign Cell Id  10  2  lh32
+	Set Id X Value Y		lh32	21025
+	Assign Cell Id  10  3  lh33
+	Set Id X Value Y		lh33	21027
+	Assign Cell Id  10  4  lh34
+	Set Id X Value Y		lh34	21029
+	Assign Cell Id  10  5  lh35
+	Set Id X Value Y		lh35	21028
+	Assign Cell Id  10  6  lh36
+	Set Id X Value Y		lh36	21026
+	Assign Cell Id  10  7  lh37
+	Set Id X Value Y		lh37	-1
+
+Delete Subject 10A r1
+	Assign Cell Id  1  2  lh12
+	Set Id X Value Y		lh12	\
+	Assign Cell Id  1  4  lh14
+	Set Id X Value Y		lh14	\
+	Assign Cell Id  1  7  lh17
+	Set Id X Value Y		lh17	\
+
+Delete Subject 10A r5
+	Assign Cell Id  5  2  lh22
+	Set Id X Value Y		lh22	\
+	Assign Cell Id  5  4  lh24
+	Set Id X Value Y		lh24	\
+	Assign Cell Id  5  7  lh27
+	Set Id X Value Y		lh27	\
+
+Delete Subject 10A r10
+	Assign Cell Id  10  2  lh32
+	Set Id X Value Y		lh32	\
+	Assign Cell Id  10  4  lh34
+	Set Id X Value Y		lh34	\
+	Assign Cell Id  10  7  lh37
+	Set Id X Value Y		lh37	\	
+
+Switching Class 10B
+	Go To Class  1491
+	
+Insert Timetable 10B r1
+	Assign Cell Id  1  2  lh12
+	Set Id X Value Y		lh12	-1
+	Assign Cell Id  1  3  lh13
+	Set Id X Value Y		lh13	21039
+	Assign Cell Id  1  4  lh14
+	Set Id X Value Y		lh14	21041
+	Assign Cell Id  1  5  lh15
+	Set Id X Value Y		lh15	21043
+	Assign Cell Id  1  6  lh16
+	Set Id X Value Y		lh16	21045
+	Assign Cell Id  1  7  lh17
+	Set Id X Value Y		lh17	21047
+
+Insert Timetable 10B r5
+	Assign Cell Id  5  2  lh22
+	Set Id X Value Y		lh22	21049
+	Assign Cell Id  5  3  lh23
+	Set Id X Value Y		lh23	21051
+	Assign Cell Id  5  4  lh24
+	Set Id X Value Y		lh24	21052
+	Assign Cell Id  5  5  lh25
+	Set Id X Value Y		lh25	21050
+	Assign Cell Id  5  6  lh26
+	Set Id X Value Y		lh26	21048
+	Assign Cell Id  5  7  lh27
+	Set Id X Value Y		lh27	21046
+
+Insert Timetable 10B r10
+	Assign Cell Id  10  2  lh32
+	Set Id X Value Y		lh32	21044
+
+Delete Subject 10B r1
+	Assign Cell Id  1  2  lh12
+	Set Id X Value Y		lh12	\
+	Assign Cell Id  1  3  lh13
+	Set Id X Value Y		lh13	\
+	Assign Cell Id  1  4  lh14
+	Set Id X Value Y		lh14	\
+	Assign Cell Id  1  5  lh15
+	Set Id X Value Y		lh15	\
+	Assign Cell Id  1  6  lh16
+	Set Id X Value Y		lh16	\
+	Assign Cell Id  1  7  lh17
+	Set Id X Value Y		lh17	\
+
+Delete Timetable 10B r5
+	Assign Cell Id  5  2  lh22
+	Set Id X Value Y		lh22	\
+	Assign Cell Id  5  3  lh23
+	Set Id X Value Y		lh23	\
+	Assign Cell Id  5  4  lh24
+	Set Id X Value Y		lh24	\
+	Assign Cell Id  5  5  lh25
+	Set Id X Value Y		lh25	\
+	Assign Cell Id  5  6  lh26
+	Set Id X Value Y		lh26	\
+	Assign Cell Id  5  7  lh27
+	Set Id X Value Y		lh27	\
+	
+Delete Timetable 10B r10
+	Assign Cell Id  10  2  lh22
+	Set Id X Value Y		lh22	\
+	Assign Cell Id  10  3  lh23
+	Set Id X Value Y		lh23	\
+	Assign Cell Id  10  4  lh24
+	Set Id X Value Y		lh24	\
+	Assign Cell Id  10  5  lh25
+	Set Id X Value Y		lh25	\
+	Assign Cell Id  10  6  lh26
+	Set Id X Value Y		lh26	\
+	Assign Cell Id  10  7  lh27
+	Set Id X Value Y		lh27	\
+	
+Switching Class 10A
+	Go To Class  1490
+	[Teardown]  Close Browser

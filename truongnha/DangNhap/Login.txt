@@ -1,0 +1,42 @@
+﻿*** Settings ***
+Documentation  A test suite with a single test for valid login. This test has a workflow that is created using keywords from the resource file.
+
+Resource       resource.txt
+
+
+*** Test Cases ***
+
+Open Browse
+	Open login page
+
+Invalid Username
+	Log In Fail  invalid  ${VALID PASSWD}
+
+Invalid Password
+	Log In Fail  ${VALID USER}  invalid
+
+Invalid Username and Password
+	Log In Fail  invalid  invalid
+	
+Empty Username
+	Log In Fail  \  ${VALID PASSWD}
+
+Empty Password
+	Log In Fail  ${VALID USER}  \
+
+Empty Username and Password
+	Log In Fail  \  \
+
+Empty Usr and invalid pass
+	Log In Fail  \  invalid
+	
+Invalid Usr and Empty pass
+	Log In Fail  invalid  \
+	
+Log in
+	Input Username	${VALID USER}
+	Input Password	${VALID PASSWD}
+	Submit Credentials
+    Display Welcome Page
+	[Teardown]  Close Browser
+	

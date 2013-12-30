@@ -1,0 +1,58 @@
+*** Settings ***
+Documentation  A test suite with a single test for valid login. This test has a workflow that is created using keywords from the resource file.
+
+Resource       resource.txt
+
+
+*** Test Cases ***
+Open Browse
+	Open login page
+	
+Go To Forget Password
+	Go To Get Passwd
+	Display Forget Page
+	Set Id X Value Y  id_school  ${VALID SCHOOL}
+
+Invalid Date Of Birth
+	#Test Should Be Fail  ${VALID SCHOOL}  ${VALID LNAME}  ${VALID FNAME}  ${VALID BD}  ${VALID EMAIL}  ${VALID PHONE}  ${CAPTCHA}
+	Test Should Be Fail  ${VALID SCHOOL}  ${VALID LNAME}  ${VALID FNAME}  1992  ${VALID EMAIL}  ${VALID PHONE}  ${CAPTCHA}
+
+Invalid Email
+	Test Should Be Fail  ${VALID SCHOOL}  ${VALID LNAME}  ${VALID FNAME}  ${VALID BD}  trinhlk_55  ${VALID PHONE}  ${CAPTCHA}
+
+Invalid Phone
+	Test Should Be Fail  ${VALID SCHOOL}  ${VALID LNAME}  ${VALID FNAME}  ${VALID BD}  ${VALID EMAIL}  9656344363  ${CAPTCHA}
+
+Invalid Phone and Email
+	Test Should Be Fail  ${VALID SCHOOL}  ${VALID LNAME}  ${VALID FNAME}  ${VALID BD}  trinhlk_55  9656344363  ${CAPTCHA}
+
+Invalid Phone and Date Of Birth
+	Test Should Be Fail  ${VALID SCHOOL}  ${VALID LNAME}  ${VALID FNAME}  1992  ${VALID EMAIL}  9656344363  ${CAPTCHA}
+	
+Invalid Email and Date Of Birth
+	Test Should Be Fail  ${VALID SCHOOL}  ${VALID LNAME}  ${VALID FNAME}  1992  trinhlk_55  ${VALID PHONE}  ${CAPTCHA}
+
+Invalid Email Phone and Date Of Birth
+	Test Should Be Fail  ${VALID SCHOOL}  ${VALID LNAME}  ${VALID FNAME}  1992  trinhlk_55  9656344363  ${CAPTCHA}
+	
+Empty Captcha
+	Test Should Be Fail  ${VALID SCHOOL}  ${VALID LNAME}  ${VALID FNAME}  ${VALID BD}  ${VALID EMAIL}  ${VALID PHONE}  \
+
+Empty School
+	Test Should Be Fail  \  ${VALID LNAME}  ${VALID FNAME}  ${VALID BD}  ${VALID EMAIL}  ${VALID PHONE}  ${CAPTCHA}
+
+Empty Last Name
+	Test Should Be Fail  ${VALID SCHOOL}  \  ${VALID FNAME}  ${VALID BD}  ${VALID EMAIL}  ${VALID PHONE}  ${CAPTCHA}
+
+Empty First Name
+	Test Should Be Fail  ${VALID SCHOOL}  ${VALID LNAME}  \  ${VALID BD}  ${VALID EMAIL}  ${VALID PHONE}  ${CAPTCHA}
+
+Empty Date Of Birth
+	Test Should Be Fail  ${VALID SCHOOL}  ${VALID LNAME}  ${VALID FNAME}  \  ${VALID EMAIL}  ${VALID PHONE}  ${CAPTCHA}
+
+Empty All
+	Test Should Be Fail  \  \  \  \  \  \  \
+
+Valid Information
+	Test Should Be Pass  ${VALID SCHOOL}  ${VALID LNAME}  ${VALID FNAME}  ${VALID BD}  ${VALID EMAIL}  ${VALID PHONE}  ${CAPTCHA}
+	[Teardown]  Close Browser
